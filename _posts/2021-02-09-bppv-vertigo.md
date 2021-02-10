@@ -33,5 +33,7 @@ To be really sure there wasn't anything else of concern, the doctor ordered a bl
 
 So, the doctor said, BPPV can happen to anyone, at any age. They don't know of anything which could cause it. I do want to read up on it though, especially since I believe there were a few things during the last days which I consider not too healthy. I returned to the office at work on Thursday, after 2.5 days of annual leave and half a day working from home. Feeling I was juggling a bit too many things at once, and unhappy about certain things, I felt stressed. Thinking about work at night prevented me from falling asleep at a decent time. That didn't make the Friday at work any easier. On Thursday, there was also an issue with the aircon, blowing on me in a very cold way for many hours. I felt a bit run-down on Saturday, and didn't do too much. Sunday, I still didn't feel fully right in the morning, but that settled, and I had a good day. Or, hey, could it have been that big black monster I ran past on the trail yesterday? Maybe the cow farted on me, and caused all this dizziness?
 
+![Cow](/assets/Cow.jpg)
+
 ---
 I am very lucky to have the support from my wife and my son. Thank you so much! And of course also a big thanks to all the medical staff helping me yesterday, our most essential workers at all times.
