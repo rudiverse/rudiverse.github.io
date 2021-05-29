@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Japan ist ... (auch das noch)"
+date: 2004-05-25
+---
+Japan ist (auch) ...
+
+- Tauben statt Moewen
+
+- wenn dir der Tankwart entgegen laeuft, und du ausser dem Anhalten des
+Wagens nichts tun musst - ok, zahlen auch noch. Der Tankwart oeffnet sogar
+die Autotuer, so dass du das Fenster nicht herunter kurbeln musst. Der
+Tankwart bewegt sich laufenderweise, um dir Zeit zu sparen. Am Ende
+verneigt er sich noch vor der Motorhaube (als wenn die was davon haette).
+
+- blindengerecht. Kein Gehweg ohne Blindenspur. Ein bisschen nervig zu
+gehen allerdings, wobei ich den Rillen und Noppen ja sehenderweise
+ausweichen kann. Ausweichen muss man auf Gehwegen allerdings auch
+Radfahrern, welche von hinten und vorne kommen, weil ihnen die Fahrbahn
+scheinbar nicht geheuer ist. Blindengerecht auch die Ampeln. An einer
+Kreuzung geben "Nord/Sued-" und "West/Ost-Ampeln" unterschiedliche Toene
+von sich. Bei diesen Toenen handelt es sich meist um Vogelgezwitscher, so
+dass der Blinde lieber taub waere.
+
+Jetzt bin ich am Mt Fuji. 3776 Meter hoch ist der Knabe. Ihn zu besteigen
+gehoert zur Japanpflicht, weshalb ich das lieber unterlassen werde. Ich
+muss mich hier eh schon zu sehr anpassen. Gebe mir ja wirklich muehe,
+nicht unnoetig schlecht aufzufallen, aber alles kann ich auch nicht tun.
+Beim Suppe essen schluerfen zum Bleistift, das kann ich einfach nicht. Die
+haben hier einige Sachen, die genau anders als bei uns laufen. Beim Bus
+steigt man hinten ein und vorne aus, wo man dann auch erst zahlt. Einige
+Sachen machen die scheinbar mit voller Absicht genau anders rum. Ein
+Japaner hat mir erzaehlt, dass sie vor dem zweiten Weltkrieg auf der
+rechten Seite Auto fuhren. Weil sie aber von den Amis besiegt wurden,
+machen sie es jetzt aus Trotz anders als diese, und fahren links.
+
+Ich koennte jetzt noch weiter schwafeln, aber eine halbe Stunde Internet
+kostet hier soviel wie ein Fujisan Bier ...
+
+... und tschuess, aeh, prost und kampai
