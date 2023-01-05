@@ -1,7 +1,7 @@
 ---
-layout: post
 title: "BPPV - Vertigo"
 date: 2021-02-09
+language: english
 ---
 Yesterday, we had a public holiday in New Zealand, Waitangi Day (observed, because the real Waitangi Day 6 Feb was on the weekend). That made it a long weekend, nice. I usually go on a little trail run on the Skyline Walkway once per weekend, and I hadn't done it that weekend. So, last chance now before work starts again the next day.
 
