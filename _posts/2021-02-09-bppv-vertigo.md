@@ -5,7 +5,7 @@ date: 2021-02-09
 ---
 Yesterday, we had a public holiday in New Zealand, Waitangi Day (observed, because the real Waitangi Day 6 Feb was on the weekend). That made it a long weekend, nice. I usually go on a little trail run on the Skyline Walkway once per weekend, and I hadn't done it that weekend. So, last chance now before work starts again the next day.
 
-[![Skyline Walkway, seen from Johnston Hill](/assets/Skyline Walkway from Johnston Hill - thumb.jpg)](/assets/Skyline Walkway from Johnston Hill.jpg)
+[![Skyline Walkway, seen from Johnston Hill](/assets/images/Skyline Walkway from Johnston Hill - thumb.jpg)](/assets/images/Skyline Walkway from Johnston Hill.jpg)
 
 I started on top of Montgomery Ave, Karori, Wellington, and turned right, intending to run up to Johnston Hill, and back again. After the first climb, going downhill, I came across another runner making his way up. He warned me about a couple of cows on the trail. I decided to carry on. Soon, I saw only one cow, a big black monster though. She gave me enough room to pass her at her bottom side. At the gate/cattle grid, the downhill run changed uphill again. Not too far up, I felt dizzy all of a sudden. That never happened to me before on a run. I stopped, and I almost felt like fainting. Squatting down, and putting one hand on higher ground, helped a bit. I may have stayed like that for a minute, then decided to walk back home. That walk was alright, but I didn't dare to start running again. 
 
@@ -21,7 +21,7 @@ Some joyride over Karori West speedbumps and down to Newtown later, I was pushed
 
 I rolled over to a bed on the emergency floor, and that movement brought back the dizziness. It hadn't been too bad on the ambulance anymore. I stayed in a flat position on the bed for another couple of hours, hoping there wouldn't be any Dr Bean sneaking around. 
 
-![Dr Bean](/assets/Dr Bean.jpg)
+![Dr Bean](/assets/images/Dr Bean.jpg)
 
 When a nurse finally saw me, I dared to sit half upright, and it wasn't too bad anymore. It may have been around 7pm by then. The last time I had eaten anything was breakfast around 9am, before my run. The nurse asked if I wanted to have a sandwich, or maybe an ice-block. I settled for the ice-block, which was a good refreshment at that time. After some more waiting, my bed got pushed in a cabin, and soon after a nurse came, doing some more checks. At that time I finally accepted a sandwich, and my wife brought me some nice herbal tea. Then, waiting. And, waiting. Wife and son finally left by taxi, around 8:30pm. Our son had his first real scheduled school day in his college the next day. Before they left, I got my son's support walking to the toilet, in case I would get dizzy again. But I could walk freely, albeit slowly. At that point, I could finally also walk over to Ian, who happened to be on the emergency floor again. Amazing, in how good spirits he was, considering his injury.
 
@@ -33,7 +33,7 @@ To be really sure there wasn't anything else of concern, the doctor ordered a bl
 
 So, the doctor said, BPPV can happen to anyone, at any age. They don't know of anything which could cause it. I do want to read up on it though, especially since I believe there were a few things during the last days which I consider not too healthy. I returned to the office at work on the Thursday prior, after 2.5 days of annual leave and half a day working from home. Playing the catch-up game, probably juggling a bit too many things at once, and not happy about everything, I felt a bit stressed. Having another coffee at lunch time (after the normal couple of morning ones) had enabled me perfectly to stay awake at night for a bit too long, to contemplate on work items. That lack of sleep didn't make the Friday at work any easier. On Thursday, there was also an issue with the aircon, blowing on me in a very cold way for many hours. I felt a bit run-down on Saturday, and didn't do too much. Sunday, I still didn't feel fully right in the morning, but that settled, and I had a good day.
 
-![Cow](/assets/Cow.jpg)
+![Cow](/assets/images/Cow.jpg)
 
 Or, hmm, could it have been that big black monster I ran past on the trail yesterday? Maybe the cow farted on me, and caused all this dizziness?
 

@@ -1,0 +1,8 @@
+- name: english
+  link: /
+- name: deutsch
+  link: /de/
+- name: boarisch
+  link: /bar/
+- name: blog
+  link: /blog/
