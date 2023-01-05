@@ -1,7 +1,7 @@
 ---
-layout: post
 title: "Smith the Grocer"
 date: 2021-02-16
+language: english
 ---
 Writing on the wall, downstairs:
 

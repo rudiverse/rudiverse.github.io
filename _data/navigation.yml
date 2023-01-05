@@ -6,3 +6,5 @@
   link: /bar/
 - name: blog
   link: /blog/
+- name: languages
+  link: /languages.html

@@ -3,3 +3,23 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
 # theme: jekyll-theme-cayman
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "languages"
+    values:
+      layout: "language"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+collections:
+  languages:
+    output: true
