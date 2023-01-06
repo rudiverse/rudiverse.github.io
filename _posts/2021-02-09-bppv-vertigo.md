@@ -1,6 +1,7 @@
 ---
 title: "BPPV - Vertigo"
 date: 2021-02-09
+language: en
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
 en: required
 de: none

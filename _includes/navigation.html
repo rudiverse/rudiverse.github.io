@@ -1,6 +1,15 @@
 <nav>
     <ul>
-        {% for item in site.data.navigation %}
+        {% case page.language %}
+            {% when 'de' %}
+	            {% assign nav = site.data.navigation_de %}
+            {% when 'bar' %}
+                {% assign nav = site.data.navigation_bar %}
+            {% else %}
+                {% assign nav = site.data.navigation_en %}
+        {% endcase %}
+
+        {% for item in nav %}
             {% if page.url == item.link %}
                 {{ item.name }}
             {% else %}
