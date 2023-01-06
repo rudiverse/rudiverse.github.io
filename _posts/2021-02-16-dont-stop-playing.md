@@ -1,7 +1,10 @@
 ---
 title: "Smith the Grocer"
 date: 2021-02-16
-language: english
+# for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
+en: required
+de: none
+bar: none
 ---
 Writing on the wall, downstairs:
 
