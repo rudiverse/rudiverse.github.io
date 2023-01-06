@@ -11,7 +11,7 @@ lip: tip
 	<ul class="posts">
 		
 		
-	  {% assign filtered_posts = en_posts | where_exp: 'item', 'item.de != "required" and item.bar != "required"' %}
+	  {% assign filtered_posts = en_posts | where_exp: 'item', 'item.de != "required"' | where_exp: 'item', 'item.bar != "required"' %}
 		
 		
 	  {% for post in filtered_posts %}
