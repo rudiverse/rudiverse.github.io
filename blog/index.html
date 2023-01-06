@@ -6,26 +6,32 @@ language: en
 
 	{% assign en_posts = site.posts | where_exp: "item", "item.en == 'required'" %}
 
-	<h2>Only English language knowledge required</h2>
-	<ul class="posts">
-	  {% assign filtered_posts = en_posts | where_exp: 'item', 'item.de != "required"' | where_exp: 'item', 'item.bar != "required"' %}
-	  {% for post in filtered_posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+	{% assign filtered_posts = en_posts | where_exp: 'item', 'item.de != "required"' | where_exp: 'item', 'item.bar != "required"' %}
+	{% if filtered_posts.size > 0 %}
+		<h2>Only English language knowledge required</h2>
+		<ul class="posts">
+		{% for post in filtered_posts %}
+			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		{% endfor %}
+		</ul>
+	{% endif %}
 
-	<h2>English plus German language knowledge required</h2>
-	<ul class="posts">
-	  {% assign filtered_posts = en_posts | where_exp: 'item', 'item.de == "required"' %}
-	  {% for post in filtered_posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+	{% assign filtered_posts = en_posts | where_exp: 'item', 'item.de == "required"' %}
+	{% if filtered_posts.size > 0 %}
+		<h2>English plus German language knowledge required</h2>
+		<ul class="posts">
+		{% for post in filtered_posts %}
+			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		{% endfor %}
+		</ul>
+	{% endif %}
 
-	<h2>English plus Bavarian language knowledge required</h2>
-	<ul class="posts">
-	  {% assign filtered_posts = en_posts | where_exp: 'item', 'item.bar == "required"' %}
-	  {% for post in filtered_posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+	{% assign filtered_posts = en_posts | where_exp: 'item', 'item.bar == "required"' %}
+	{% if filtered_posts.size > 0 %}
+		<h2>English plus Bavarian language knowledge required</h2>
+		<ul class="posts">
+		{% for post in filtered_posts %}
+			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		{% endfor %}
+		</ul>
+	{% endif %}
