@@ -1,22 +1,22 @@
 ---
 title: RUDIVERSE Blog
-language: en
+language: de
 ---
 	<h1>{{ page.title }}</h1>
 
-	{% assign en_posts = site.posts | where_exp: 'item', 'item.en == "required"' %}
+	{% assign de_posts = site.posts | where_exp: 'item', 'item.de == "required"' %}
 
-	<h2>Only English language knowledge required</h2>
+	<h2>Ausschließlich Deutschkenntnisse nötig</h2>
 	<ul class="posts">
-	  {% assign filtered_posts = en_posts | where_exp: 'item', 'item.de != "required" and item.bar != "required"' %}
+	  {% assign filtered_posts = de_posts | where_exp: 'item', 'item.en != "required" and item.bar != "required"' %}
 	  {% for post in filtered_posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
 
-	<h2>English plus additional language knowledge required</h2>
+	<h2>Deutsch und weitere Sprachkenntnisse nötig</h2>
 	<ul class="posts">
-	  {% assign filtered_posts = en_posts | where_exp: 'item', 'item.de == "required" or item.bar == "required"' %}
+	  {% assign filtered_posts = de_posts | where_exp: 'item', 'item.en == "required" or item.bar == "required"' %}
 	  {% for post in filtered_posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}

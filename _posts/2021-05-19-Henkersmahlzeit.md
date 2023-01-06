@@ -1,7 +1,10 @@
 ---
 title: "Henkersmahlzeit, Cafe Verve"
 date: 2021-05-19
-language: bavarian
+# for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
+en: none
+de: none
+bar: required
 ---
 Vor 12 Uhr is' bessa, unta da Woch. Do kann ma d guade Musik hean, z. B. an Robert Zimmerman. Ab zwejfe kimmt d Meute, dann heast nur no de.
 
