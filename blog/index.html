@@ -10,7 +10,9 @@ lip: tip
 	<h2>Only English language knowledge required</h2>
 	<ul class="posts">
 		
+		
 	  {% assign filtered_posts = en_posts | where_exp: 'item', 'item.de != "required" and item.bar != "required"' %}
+		
 		
 	  {% for post in filtered_posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
