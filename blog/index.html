@@ -4,7 +4,7 @@ language: en
 ---
 	<h1>{{ page.title }}</h1>
 
-	{% assign en_posts = site.posts | where_exp: "item", "item.en == 'required'" %}
+	{% assign en_posts = site.posts | where: "en", "required" %}
 
 	<h2>Only English language knowledge required</h2>
 	<ul class="posts">
