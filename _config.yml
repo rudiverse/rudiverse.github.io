@@ -19,7 +19,3 @@ defaults:
       path: ""
     values:
       layout: "default"
-
-collections:
-  languages:
-    output: true

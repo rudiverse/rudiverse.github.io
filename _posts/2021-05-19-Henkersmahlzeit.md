@@ -1,7 +1,6 @@
 ---
 title: "Henkersmahlzeit, Cafe Verve"
 date: 2021-05-19
-language: bar
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
 en: none
 de: none
