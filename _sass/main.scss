@@ -20,12 +20,12 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    //font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.2em;
+    //line-height: 1.4em;
     color: #333;
 }
 footer {
@@ -33,7 +33,10 @@ footer {
     font-size: .8em;
 }
 
-ul { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+//ul { 
+//    margin: 20px auto 40px; 
+//    font-size: 1.5em;
+//}
+langswitch {
+    text-align: right;
 }
