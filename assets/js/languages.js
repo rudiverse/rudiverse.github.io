@@ -9,7 +9,7 @@ const navigation = {
             link: "/blog/"
         }
     ],
-    de:[
+    de: [
         {
             name: "Home",
             link: "/de/"
@@ -19,7 +19,7 @@ const navigation = {
             link: "/de/blog/"
         }
     ],
-    bar:[
+    bar: [
         {
             name: "Home",
             link: "/bar/"
@@ -31,42 +31,35 @@ const navigation = {
     ]
 }
 
-function buildNavMenu(){
-    //alert('do samma')
-    
-    // const menuelement = document.getElementById("nav_menu");
-    // var newItem = document.createElement("li");
-    // var a = document.createElement("a");
-    
-    // a.textContent = "...ooo";
-    // a.setAttribute('href', "http://www.msn.com");
-    // newItem.appendChild(a);
-    // menuelement.appendChild(newItem);
-
+function buildNavMenu() {
     let selectedLang = sessionStorage.getItem("language")
     let menuItems
-    
+
     switch (selectedLang) {
         case "de":
-            menuItems=navigation.de
+            menuItems = navigation.de
             break
         case "bar":
-            menuItems=navigation.bar
+            menuItems = navigation.bar
             break
         default:
-            menuItems=navigation.en
+            menuItems = navigation.en
     }
-    
+
     const menuelement = document.getElementById("nav_menu");
 
     menuItems.forEach(item => {
         var newListItem = document.createElement("li");
-        var a = document.createElement("a");
 
-        a.textContent=item.name
-        a.setAttribute('href', item.link);
+        if (!isCurrentPage(item.link)) {
+            var a = document.createElement("a");
+            a.textContent = item.name
+            a.setAttribute('href', item.link);
+            newListItem.appendChild(a)
+        } else {
+            newListItem.innerHTML = item.name
+        }
 
-        newListItem.appendChild(a)
         menuelement.appendChild(newListItem)
     });
 }
@@ -84,4 +77,13 @@ function selectLanguage(selectedLang) {
         default:
             window.location = "/"
     }
+}
+
+function isCurrentPage(link) {
+    var url = stripTrailingSlash(window.location.pathname)
+    return url == stripTrailingSlash(link)
+}
+
+function stripTrailingSlash(item) {
+    return item.replace(/\/$/, "");
 }
