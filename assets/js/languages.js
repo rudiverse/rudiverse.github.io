@@ -61,6 +61,7 @@ function buildNavMenu(selectedLang) {
     }
 
     const menuelement = document.getElementById("nav_menu");
+    menuelement.replaceChildren()
 
     menuItems.forEach(item => {
         var newListItem = document.createElement("li");
@@ -117,15 +118,20 @@ function buildLanguageSwitcherItem(language, selectedLang) {
 function selectLanguage(selectedLang) {
     sessionStorage.setItem("language", selectedLang);
 
-    switch (selectedLang) {
-        case "de":
-            window.location = "/de"
-            break
-        case "bar":
-            window.location = "/bar"
-            break
-        default:
-            window.location = "/"
+    if (!isCurrentPageLanguageHomePage()) {
+        buildNavMenuAndLanguageSwitcher()
+
+    } else {
+        switch (selectedLang) {
+            case "de":
+                window.location = "/de"
+                break
+            case "bar":
+                window.location = "/bar"
+                break
+            default:
+                window.location = "/"
+        }
     }
 }
 
@@ -136,4 +142,10 @@ function isCurrentPage(link) {
 
 function stripTrailingSlash(item) {
     return item.replace(/\/$/, "");
+}
+
+function isCurrentPageLanguageHomePage() {
+    return isCurrentPage("/") ||
+        isCurrentPage("/de") ||
+        isCurrentPage("/bar")
 }
