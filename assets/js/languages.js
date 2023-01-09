@@ -1,3 +1,7 @@
+/// language.js
+/// contains scripts to support the 3 languages English (en), German (de), Bavarian (bar)
+
+// define nav menu for each language
 const navigation = {
     en: [
         {
@@ -31,8 +35,18 @@ const navigation = {
     ]
 }
 
-function buildNavMenu() {
+/// buildNavMenuAndLanguageSwitcher - called by "body onload" in default.html
+function buildNavMenuAndLanguageSwitcher() {
     let selectedLang = sessionStorage.getItem("language")
+
+    buildNavMenu(selectedLang)
+    buildLanguageSwitcher(selectedLang)
+}
+
+/// buildNavMenu
+/// builds the navigation menu, depending on language retrieved from session
+/// adds list items to <ul id="nav_menu">
+function buildNavMenu(selectedLang) {
     let menuItems
 
     switch (selectedLang) {
@@ -64,6 +78,42 @@ function buildNavMenu() {
     });
 }
 
+/// buildLanguageSwitcher
+/// builds links to switch to any of the supported languages
+/// active language will be marked as such, instead of supplying a link
+function buildLanguageSwitcher(selectedLang) {
+    const menuelement = document.getElementById("langswitch_list");
+
+    let content = buildLanguageSwitcherItem('en', selectedLang)
+    content += " | "
+    content += buildLanguageSwitcherItem('de', selectedLang)
+    content += " | "
+    content += buildLanguageSwitcherItem('bar', selectedLang)
+
+    menuelement.innerHTML = content
+}
+
+function buildLanguageSwitcherItem(language, selectedLang) {
+    let html
+
+    if (language == selectedLang) {
+        html = '<span class="langactive">'
+        html += language
+        html += "</span>"
+    } else {
+        html = "<a href=\"javascript:selectLanguage('"
+        html += language
+        html += "')\">"
+        html += language
+        html += "</a>"
+    }
+
+    return html
+}
+
+/// selectLanguage - called from a language selector/switcher link
+/// sets the session item "language"
+/// redirects to selected language's homepage
 function selectLanguage(selectedLang) {
     sessionStorage.setItem("language", selectedLang);
 
