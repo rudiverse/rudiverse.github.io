@@ -47,6 +47,7 @@ function buildNavMenuAndLanguageSwitcher() {
         } else {
             selectedLang = "en"
         }
+        sessionStorage.setItem("language", selectedLang);
     }
 
     buildNavMenu(selectedLang)
