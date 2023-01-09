@@ -39,6 +39,16 @@ const navigation = {
 function buildNavMenuAndLanguageSwitcher() {
     let selectedLang = sessionStorage.getItem("language")
 
+    if (!selectedLang) {
+        if (window.location.pathname.startsWith("/de/")) {
+            selectedLang = "de"
+        } else if (window.location.pathname.startsWith("/bar/")) {
+            selectedLang = "bar"
+        } else {
+            selectedLang = "en"
+        }
+    }
+
     buildNavMenu(selectedLang)
     buildLanguageSwitcher(selectedLang)
 }
