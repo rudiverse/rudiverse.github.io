@@ -6,11 +6,11 @@
     		<link rel="stylesheet" href="/assets/css/styles.css">
 			<script language="javascript" src="/assets/js/languages.js"></script>
 		</head>
-		<body onload="buildNavMenu()">
+		<body onload="buildNavMenuAndLanguageSwitcher()">
 			{% include navigation.html %}
 			{% include langswitch.html %}
 
-			<div class="container">
+			<div class="container" style="clear: both;">
 			
 			{{ content }}
 			

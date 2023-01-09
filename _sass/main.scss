@@ -31,6 +31,15 @@ footer {
     font-size: .8em;
 }
 
-langswitch {
-    text-align: right;
+.langactive {
+    color: orangered;
+    font-weight: bold;
+}
+
+.alignright {
+    float: right;
+}
+
+.alignleft {
+    float: left;
 }
