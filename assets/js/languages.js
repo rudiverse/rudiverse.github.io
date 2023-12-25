@@ -11,6 +11,10 @@ const navigation = {
         {
             name: "Content",
             link: "/blog/"
+        },
+        {
+            name: "Quizzes",
+            link: "/quizzes/"
         }
     ],
     de: [
