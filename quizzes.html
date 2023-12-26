@@ -8,7 +8,7 @@ title: Quizzes
     {% for quiz in site.quizzes %}
     <li>
         <h3><a href="{{ quiz.url }}">{{ quiz.title }}</a></h3>
-        <p>{{ quiz.content | markdownify }}</p>
+        <!-- <p>{{ quiz.content | markdownify }}</p> -->
     </li>
     {% endfor %}
 </ul>
