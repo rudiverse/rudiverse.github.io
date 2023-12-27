@@ -43,3 +43,27 @@ footer {
 .alignleft {
     float: left;
 }
+
+.quiz_button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 30px 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3),inset 0 1px 1px rgba(255,255,255,.5);
+    background-color: #767676;
+    color: #fff;
+}
+
+.quiz_evaluation_correct {
+    font-size: 1.2em;
+    color: #025b28;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.quiz_evaluation_wrong {
+    font-size: 1.2em;
+    color: #760202;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
