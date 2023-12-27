@@ -39,8 +39,7 @@ const navigation = {
     ]
 }
 
-/// buildNavMenuAndLanguageSwitcher - called by "body onload" in default.html
-function buildNavMenuAndLanguageSwitcher() {
+function getLanguage() {
     let selectedLang = sessionStorage.getItem("language")
 
     if (!selectedLang) {
@@ -53,6 +52,13 @@ function buildNavMenuAndLanguageSwitcher() {
         }
         sessionStorage.setItem("language", selectedLang);
     }
+
+    return selectedLang
+}
+
+/// buildNavMenuAndLanguageSwitcher - called by "body onload" in default.html
+function buildNavMenuAndLanguageSwitcher() {
+    let selectedLang = getLanguage()
 
     buildNavMenu(selectedLang)
     buildLanguageSwitcher(selectedLang)

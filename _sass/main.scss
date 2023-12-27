@@ -27,8 +27,9 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
     font-size: .8em;
+    padding-top: 20px;
 }
 
 .langactive {
@@ -56,14 +57,16 @@ footer {
 
 .quiz_evaluation_correct {
     font-size: 1.2em;
-    color: #025b28;
+    font-weight: 700;
+    color: #03d05b;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .quiz_evaluation_wrong {
     font-size: 1.2em;
-    color: #760202;
+    font-weight: 700;
+    color: #ec0606;
     margin-top: 20px;
     margin-bottom: 20px;
 }

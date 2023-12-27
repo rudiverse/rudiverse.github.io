@@ -3,6 +3,13 @@
 
 let answerSelected = ""
 
+function getText(name) {
+    let langTexts = quizMetadata.find(x => x.language == getLanguage()).texts
+    let textObject = langTexts.find(x => x.name == name)
+    let text = textObject.value
+    return text
+}
+
 function startQuiz(btnToHideId) {
     if (btnToHideId != "") {
         const btnToHide = document.getElementById(btnToHideId)
@@ -15,7 +22,7 @@ function startQuiz(btnToHideId) {
 function buildQuiz(skipQuestionId) {
     const nextButtonElement = document.getElementById("quiz_next_button")
     nextButtonElement.replaceChildren()
-    
+
     const evaluationElement = document.getElementById("quiz_evaluation")
     evaluationElement.replaceChildren()
 
@@ -74,10 +81,10 @@ function evaluateQuestion(quizItemIndex) {
     const evaluationElement = document.getElementById("quiz_evaluation")
 
     if (answerFound.valid) {
-        evaluationElement.innerHTML = "Well done, you nailed it!"
+        evaluationElement.innerHTML = getText("evaluateCorrectAnswer")
         evaluationElement.className = "quiz_evaluation_correct"
     } else {
-        evaluationElement.innerHTML = "Oh no, you need to study more."
+        evaluationElement.innerHTML = getText("evaluateWrongAnswer")
         evaluationElement.className = "quiz_evaluation_wrong"
     }
 
