@@ -28,7 +28,7 @@ const navigation = {
         },
         {
             name: "Rätseln",
-            link: "/quizzes/"
+            link: "/de/quizzes/"
         }
     ],
     bar: [
@@ -42,7 +42,7 @@ const navigation = {
         },
         {
             name: "Rätsln",
-            link: "/quizzes/"
+            link: "/bar/quizzes/"
         }
     ]
 }
