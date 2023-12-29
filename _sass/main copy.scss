@@ -1,6 +1,18 @@
 body {
     margin: 60px auto;
     width: 90%;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #ddd;
+    //text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" on,"liga" on,"calt" on,"onum","pnum";
+}
+.container {
+    background-color: #444;
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.1);
+    padding: 40px 40px 30px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -27,9 +39,8 @@ p {
     color: #333;
 }
 footer {
-    border-bottom: 1px solid #d5d5d5;
+    border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    padding-top: 20px;
 }
 
 .langactive {
@@ -43,30 +54,4 @@ footer {
 
 .alignleft {
     float: left;
-}
-
-.quiz_button {
-    font-size: 16px;
-    font-weight: 700;
-    padding: 8px 30px 10px;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.3),inset 0 1px 1px rgba(255,255,255,.5);
-    background-color: #767676;
-    color: #fff;
-}
-
-.quiz_evaluation_correct {
-    font-size: 1.2em;
-    font-weight: 700;
-    color: #03d05b;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.quiz_evaluation_wrong {
-    font-size: 1.2em;
-    font-weight: 700;
-    color: #ec0606;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }

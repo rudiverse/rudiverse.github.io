@@ -9,8 +9,12 @@ const navigation = {
             link: "/"
         },
         {
-            name: "Content",
+            name: "Blog",
             link: "/blog/"
+        },
+        {
+            name: "Quizzes",
+            link: "/quizzes/"
         }
     ],
     de: [
@@ -21,6 +25,10 @@ const navigation = {
         {
             name: "Verse",
             link: "/de/blog/"
+        },
+        {
+            name: "Rätseln",
+            link: "/quizzes/"
         }
     ],
     bar: [
@@ -31,12 +39,15 @@ const navigation = {
         {
             name: "Schwafe",
             link: "/bar/blog/"
+        },
+        {
+            name: "Rätsln",
+            link: "/quizzes/"
         }
     ]
 }
 
-/// buildNavMenuAndLanguageSwitcher - called by "body onload" in default.html
-function buildNavMenuAndLanguageSwitcher() {
+function getLanguage() {
     let selectedLang = sessionStorage.getItem("language")
 
     if (!selectedLang) {
@@ -49,6 +60,13 @@ function buildNavMenuAndLanguageSwitcher() {
         }
         sessionStorage.setItem("language", selectedLang);
     }
+
+    return selectedLang
+}
+
+/// buildNavMenuAndLanguageSwitcher - called by "body onload" in default.html
+function buildNavMenuAndLanguageSwitcher() {
+    let selectedLang = getLanguage()
 
     buildNavMenu(selectedLang)
     buildLanguageSwitcher(selectedLang)
