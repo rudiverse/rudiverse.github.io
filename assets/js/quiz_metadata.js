@@ -14,6 +14,14 @@ const quizMetadata = [
             {
                 name: "evaluateWrongAnswer",
                 value: "Oh no, you need to study more."
+            },
+            {
+                name: "evaluateAllCorrectAnswered",
+                value: "{#} question(s) answered correctly."
+            },
+            {
+                name: "evaluateAllWrongAnswered",
+                value: "{#} question(s) you didn't answer correctly."
             }
         ]
     },
@@ -31,6 +39,14 @@ const quizMetadata = [
             {
                 name: "evaluateWrongAnswer",
                 value: "Oh nein, leider falsch."
+            },
+            {
+                name: "evaluateAllCorrectAnswered",
+                value: "{#} Frage(n) richtig beantwortet."
+            },
+            {
+                name: "evaluateAllWrongAnswered",
+                value: "{#} Frage(n) falsch beantwortet."
             }
         ]
     },
@@ -48,6 +64,14 @@ const quizMetadata = [
             {
                 name: "evaluateWrongAnswer",
                 value: "Schmarrn!"
+            },
+            {
+                name: "evaluateAllCorrectAnswered",
+                value: "{#} host gwusst."
+            },
+            {
+                name: "evaluateAllWrongAnswered",
+                value: "Bei {#} host de debbad gstejt."
             }
         ]
     }

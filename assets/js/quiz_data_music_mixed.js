@@ -22,7 +22,7 @@ let quizData = [
         ]
     },
     {
-        question: 'Von wem stammt: "De Zeit is reif, reif für neue Ideen. Längst is uns des jetzige Dasei, zu unbequem"?',
+        question: 'Von wem stammt: "De Zeit is reif, reif für neue Ideen. Längst is uns des jetzige Dosei, zu unbequem"?',
         answers: [
             {
                 answer: "Schariwari",
@@ -64,28 +64,28 @@ let quizData = [
         ]
     },
     {
-        question: 'Wer war mit Pippo Pollina und Martin Kälberer auf der Tournee "Süden"?',
+        question: 'Wer war mit Werner Schmidbauer und Martin Kälberer auf der Tournee "Süden"?',
         answers: [
             {
-                answer: "Schariwari",
+                answer: "Franz Beckenbauer",
                 valid: false
             },
             {
-                answer: "STS",
+                answer: "Sepp Maier",
                 valid: false
             },
             {
-                answer: "Haindling",
+                answer: "Toto Schilacci",
                 valid: false
             },
             {
-                answer: "Werner Schmidbauer",
+                answer: "Pippo Pollina",
                 valid: true
             },
         ]
     },
     {
-        question: 'Von wem stammt: "Des warn da Muihiasl, da Stornberger, und da Irlmeier"?',
+        question: 'Von wem stammt: "Des warn da Muihiasl, da Stormberger, und da Irlmaier"?',
         answers: [
             {
                 answer: "Schariwari",

@@ -25,6 +25,10 @@ const navigation = {
         {
             name: "Verse",
             link: "/de/blog/"
+        },
+        {
+            name: "Rätseln",
+            link: "/quizzes/"
         }
     ],
     bar: [
@@ -35,6 +39,10 @@ const navigation = {
         {
             name: "Schwafe",
             link: "/bar/blog/"
+        },
+        {
+            name: "Rätsln",
+            link: "/quizzes/"
         }
     ]
 }

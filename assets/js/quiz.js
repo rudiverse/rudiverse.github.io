@@ -2,6 +2,8 @@
 /// contains scripts to generate a quiz
 
 let answerSelected = ""
+let correctAnswers = 0
+let wrongAnswers = 0
 
 function getText(name) {
     let langTexts = quizMetadata.find(x => x.language == getLanguage()).texts
@@ -16,24 +18,24 @@ function startQuiz(btnToHideId) {
         btnToHide.style.display = "none";
     }
 
-    buildQuiz(-1)
+    randomise(quizData)
+
+    buildQuiz(0)
 }
 
-function buildQuiz(skipQuestionId) {
+function buildQuiz(quizItemIndex) {
     const nextButtonElement = document.getElementById("quiz_next_button")
     nextButtonElement.replaceChildren()
 
     const evaluationElement = document.getElementById("quiz_evaluation")
     evaluationElement.replaceChildren()
 
-    let quizItemIndex = Math.floor(Math.random() * quizData.length)
-    while (quizItemIndex == skipQuestionId) {
-        quizItemIndex = Math.floor(Math.random() * quizData.length)
-    }
     let quizItem = quizData[quizItemIndex]
 
     const questionElement = document.getElementById("quiz_question")
     questionElement.innerHTML = quizItem.question
+
+    randomise(quizItem.answers)
 
     const answerElement = document.getElementById("quiz_answers")
     answerElement.replaceChildren()
@@ -81,18 +83,38 @@ function evaluateQuestion(quizItemIndex) {
     const evaluationElement = document.getElementById("quiz_evaluation")
 
     if (answerFound.valid) {
+        correctAnswers++
         evaluationElement.innerHTML = getText("evaluateCorrectAnswer")
         evaluationElement.className = "quiz_evaluation_correct"
     } else {
+        wrongAnswers++
         evaluationElement.innerHTML = getText("evaluateWrongAnswer")
         evaluationElement.className = "quiz_evaluation_wrong"
     }
 
-    var nextButton = document.createElement("button")
-    nextButton.setAttribute('onclick', "buildQuiz(" + quizItemIndex + ")")
-    nextButton.innerHTML = "NEXT"
-    nextButton.className = "quiz_button"
+    if (quizItemIndex >= quizData.length - 1) {
+        const evaluationCorrectElement = document.getElementById("quiz_evaluation_correct_answers")
+        evaluationCorrectElement.innerHTML = getText("evaluateAllCorrectAnswered").replace('{#}', correctAnswers)
+        const evaluationWrongElement = document.getElementById("quiz_evaluation_wrong_answers")
+        evaluationWrongElement.innerHTML = getText("evaluateAllWrongAnswered").replace('{#}', wrongAnswers)
+    } else {
+        var nextButton = document.createElement("button")
+        nextButton.setAttribute('onclick', "buildQuiz(" + (quizItemIndex + 1) + ")")
+        nextButton.innerHTML = "NEXT"
+        nextButton.className = "quiz_button"
 
-    const nextButtonElement = document.getElementById("quiz_next_button")
-    nextButtonElement.appendChild(nextButton)
+        const nextButtonElement = document.getElementById("quiz_next_button")
+        nextButtonElement.appendChild(nextButton)
+    }
+}
+
+// Randomise an array with the Fisher Yates method
+// https://www.w3schools.com/js/js_array_sort.asp
+function randomise(data) {
+    for (let i = data.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        let k = data[i];
+        data[i] = data[j];
+        data[j] = k;
+    }
 }
