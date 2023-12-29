@@ -52,6 +52,7 @@ function buildQuiz(quizItemIndex) {
 
         answerInput.addEventListener('change', function () {
             answerSelected = this.value
+            evaluateQuestion(quizItemIndex)
         });
 
         answerContainer.appendChild(answerInput)
@@ -64,13 +65,13 @@ function buildQuiz(quizItemIndex) {
         answerElement.appendChild(answerContainer)
     });
 
-    var submitButton = document.createElement("button")
-    submitButton.setAttribute('onclick', "evaluateQuestion(" + quizItemIndex + ")")
-    submitButton.innerHTML = "GO"
-    submitButton.className = "quiz_button"
+    // var submitButton = document.createElement("button")
+    // submitButton.setAttribute('onclick', "evaluateQuestion(" + quizItemIndex + ")")
+    // submitButton.innerHTML = "GO"
+    // submitButton.className = "quiz_button"
 
-    const submitButtonElement = document.getElementById("quiz_submit_button")
-    submitButtonElement.appendChild(submitButton)
+    // const submitButtonElement = document.getElementById("quiz_submit_button")
+    // submitButtonElement.appendChild(submitButton)
 }
 
 function evaluateQuestion(quizItemIndex) {
