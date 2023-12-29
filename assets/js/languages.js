@@ -9,7 +9,7 @@ const navigation = {
             link: "/"
         },
         {
-            name: "Content",
+            name: "Blog",
             link: "/blog/"
         },
         {
