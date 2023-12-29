@@ -1,7 +1,6 @@
 /// quiz.js
 /// contains scripts to generate a quiz
 
-let answerSelected = ""
 let correctAnswers = 0
 let wrongAnswers = 0
 
@@ -37,32 +36,20 @@ function buildQuiz(quizItemIndex) {
 
     randomise(quizItem.answers)
 
-    const answerElement = document.getElementById("quiz_answers")
+    const answerElement = document.getElementById("quiz_answers_ul")
     answerElement.replaceChildren()
 
-    quizItem.answers.forEach((item, index) => {
-        var answerId = "answer_" + index
-        var answerContainer = document.createElement("p");
+    quizItem.answers.forEach(item => {
+        var answerItem = document.createElement("li");
+        var a = document.createElement("a");
 
-        var answerInput = document.createElement("input");
-        answerInput.type = "radio"
-        answerInput.value = item.answer
-        answerInput.name = "answer_option"
-        answerInput.id = answerId
+        a.textContent = item.answer
+        let evaluateLink = 'javascript:evaluateQuestion(' + quizItemIndex + ',"' + item.answer + '")'
+        a.setAttribute('href', evaluateLink);
+        a.className = "quiz_answer_button"
 
-        answerInput.addEventListener('change', function () {
-            answerSelected = this.value
-            evaluateQuestion(quizItemIndex)
-        });
-
-        answerContainer.appendChild(answerInput)
-
-        var answerLabel = document.createElement("label");
-        answerLabel.setAttribute('for', answerId)
-        answerLabel.innerHTML = item.answer
-        answerContainer.appendChild(answerLabel)
-
-        answerElement.appendChild(answerContainer)
+        answerItem.appendChild(a)
+        answerElement.appendChild(answerItem)
     });
 
     // var submitButton = document.createElement("button")
@@ -74,12 +61,34 @@ function buildQuiz(quizItemIndex) {
     // submitButtonElement.appendChild(submitButton)
 }
 
-function evaluateQuestion(quizItemIndex) {
-    const submitButtonElement = document.getElementById("quiz_submit_button")
-    submitButtonElement.replaceChildren()
+function evaluateQuestion(quizItemIndex, answerSelected) {
+    // const submitButtonElement = document.getElementById("quiz_submit_button")
+    // submitButtonElement.replaceChildren()
 
     let quizItem = quizData[quizItemIndex]
     let answerFound = quizItem.answers.find(x => x.answer == answerSelected)
+
+    const answerElement = document.getElementById("quiz_answers_ul")
+    answerElement.replaceChildren()
+
+    quizItem.answers.forEach(item => {
+        var answerItem = document.createElement("li");
+
+        answerItem.innerHTML = item.answer
+
+        if (item.valid) {
+            answerItem.className = "quiz_answer_correct"
+        } else if (item.answer == answerSelected) {
+            answerItem.className = "quiz_answer_wrong"
+        } else {
+            answerItem.className = "quiz_answer_button"
+        }
+
+        answerElement.appendChild(answerItem)
+    });
+
+
+
 
     const evaluationElement = document.getElementById("quiz_evaluation")
 
