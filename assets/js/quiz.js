@@ -11,12 +11,7 @@ function getText(name) {
     return text
 }
 
-function startQuiz(btnToHideId) {
-    if (btnToHideId != "") {
-        const btnToHide = document.getElementById(btnToHideId)
-        btnToHide.style.display = "none";
-    }
-
+function startQuiz() {
     randomise(quizData)
 
     buildQuiz(0)
