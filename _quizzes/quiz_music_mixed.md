@@ -8,7 +8,6 @@ language: boarisch
         <ul id="quiz_answers_ul" class="quiz_answers">
         </ul>
     </div>
-    <div id="quiz_submit_button"></div>
     <div id="quiz_evaluation"></div>
     <div id="quiz_evaluation_correct_answers" class="quiz_evaluation_correct"></div>
     <div id="quiz_evaluation_wrong_answers" class="quiz_evaluation_wrong"></div>
