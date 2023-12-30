@@ -5,42 +5,51 @@
 const navigation = {
     en: [
         {
+            id: "home",
             name: "Home",
             link: "/"
         },
         {
+            id: "blog",
             name: "Blog",
             link: "/blog/"
         },
         {
+            id: "quiz",
             name: "Quizzes",
             link: "/quizzes/"
         }
     ],
     de: [
         {
+            id: "home",
             name: "Home",
             link: "/de/"
         },
         {
+            id: "blog",
             name: "Verse",
             link: "/de/blog/"
         },
         {
+            id: "quiz",
             name: "Rätseln",
             link: "/de/quizzes/"
         }
     ],
     bar: [
         {
+            id: "home",
             name: "Home",
             link: "/bar/"
         },
         {
+            id: "blog",
             name: "Schwafe",
             link: "/bar/blog/"
         },
         {
+            id: "quiz",
             name: "Rätsln",
             link: "/bar/quizzes/"
         }
@@ -149,6 +158,7 @@ function selectLanguage(selectedLang) {
 
     if (!isCurrentPageLanguageHomePage()) {
         buildNavMenuAndLanguageSwitcher()
+        switchToNewLanguagePage(selectedLang)
 
     } else {
         switch (selectedLang) {
@@ -165,8 +175,8 @@ function selectLanguage(selectedLang) {
 }
 
 function isCurrentPage(link) {
-    var url = stripTrailingSlash(window.location.pathname)
-    return url == stripTrailingSlash(link)
+    var currentPage = stripTrailingSlash(window.location.pathname)
+    return currentPage == stripTrailingSlash(link)
 }
 
 function stripTrailingSlash(item) {
@@ -177,4 +187,26 @@ function isCurrentPageLanguageHomePage() {
     return isCurrentPage("/") ||
         isCurrentPage("/de") ||
         isCurrentPage("/bar")
+}
+
+// switch to new language page if there is an equivalent one;
+// for instance, if we are on /de/blog/, and we have switched to English,
+// we want to go to /blog/
+function switchToNewLanguagePage(selectedLang) {
+    let currentPage = stripTrailingSlash(window.location.pathname)
+
+    let menuItemFound = navigation.en.find(x => stripTrailingSlash(x.link) == currentPage) ?? navigation.de.find(x => stripTrailingSlash(x.link) == currentPage) ?? navigation.bar.find(x => stripTrailingSlash(x.link) == currentPage)
+
+    if (menuItemFound == null) return
+
+    switch (selectedLang) {
+        case "de":
+            window.location = navigation.de.find(x => x.id == menuItemFound.id).link
+            break
+        case "bar":
+            window.location = navigation.bar.find(x => x.id == menuItemFound.id).link
+            break
+        default:
+            window.location = navigation.en.find(x => x.id == menuItemFound.id).link
+    }
 }
