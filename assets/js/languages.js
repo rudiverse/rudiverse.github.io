@@ -40,7 +40,7 @@ const navigation = {
     bar: [
         {
             id: "home",
-            name: "Home",
+            name: "Hoam",
             link: "/bar/"
         },
         {

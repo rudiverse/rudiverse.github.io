@@ -11,12 +11,7 @@ function getText(name) {
     return text
 }
 
-function startQuiz(btnToHideId) {
-    if (btnToHideId != "") {
-        const btnToHide = document.getElementById(btnToHideId)
-        btnToHide.style.display = "none";
-    }
-
+function startQuiz() {
     randomise(quizData)
 
     buildQuiz(0)
@@ -51,20 +46,9 @@ function buildQuiz(quizItemIndex) {
         answerItem.appendChild(a)
         answerElement.appendChild(answerItem)
     });
-
-    // var submitButton = document.createElement("button")
-    // submitButton.setAttribute('onclick', "evaluateQuestion(" + quizItemIndex + ")")
-    // submitButton.innerHTML = "GO"
-    // submitButton.className = "quiz_button"
-
-    // const submitButtonElement = document.getElementById("quiz_submit_button")
-    // submitButtonElement.appendChild(submitButton)
 }
 
 function evaluateQuestion(quizItemIndex, answerSelected) {
-    // const submitButtonElement = document.getElementById("quiz_submit_button")
-    // submitButtonElement.replaceChildren()
-
     let quizItem = quizData[quizItemIndex]
     let answerFound = quizItem.answers.find(x => x.answer == answerSelected)
 
@@ -87,9 +71,6 @@ function evaluateQuestion(quizItemIndex, answerSelected) {
         answerElement.appendChild(answerItem)
     });
 
-
-
-
     const evaluationElement = document.getElementById("quiz_evaluation")
 
     if (answerFound.valid) {
@@ -102,20 +83,38 @@ function evaluateQuestion(quizItemIndex, answerSelected) {
         evaluationElement.className = "quiz_evaluation_wrong"
     }
 
+    let nextButton = document.createElement("button")
+    nextButton.className = "quiz_button"
+
     if (quizItemIndex >= quizData.length - 1) {
-        const evaluationCorrectElement = document.getElementById("quiz_evaluation_correct_answers")
-        evaluationCorrectElement.innerHTML = getText("evaluateAllCorrectAnswered").replace('{#}', correctAnswers)
-        const evaluationWrongElement = document.getElementById("quiz_evaluation_wrong_answers")
-        evaluationWrongElement.innerHTML = getText("evaluateAllWrongAnswered").replace('{#}', wrongAnswers)
+        nextButton.setAttribute('onclick', "evaluateQuiz()")
+        nextButton.innerHTML = getText("evaluateQuiz")
     } else {
-        var nextButton = document.createElement("button")
         nextButton.setAttribute('onclick', "buildQuiz(" + (quizItemIndex + 1) + ")")
         nextButton.innerHTML = "NEXT"
-        nextButton.className = "quiz_button"
-
-        const nextButtonElement = document.getElementById("quiz_next_button")
-        nextButtonElement.appendChild(nextButton)
     }
+
+    const nextButtonElement = document.getElementById("quiz_next_button")
+    nextButtonElement.appendChild(nextButton)
+}
+
+function evaluateQuiz() {
+    const nextButtonElement = document.getElementById("quiz_next_button")
+    nextButtonElement.replaceChildren()
+
+    const evaluationElement = document.getElementById("quiz_evaluation")
+    evaluationElement.replaceChildren()
+    
+    const questionElement = document.getElementById("quiz_question")
+    questionElement.replaceChildren()
+
+    const answerElement = document.getElementById("quiz_answers_ul")
+    answerElement.replaceChildren()
+
+    const evaluationCorrectElement = document.getElementById("quiz_evaluation_correct_answers")
+    evaluationCorrectElement.innerHTML = getText("evaluateAllCorrectAnswered").replace('{#}', correctAnswers)
+    const evaluationWrongElement = document.getElementById("quiz_evaluation_wrong_answers")
+    evaluationWrongElement.innerHTML = getText("evaluateAllWrongAnswered").replace('{#}', wrongAnswers)
 }
 
 // Randomise an array with the Fisher Yates method

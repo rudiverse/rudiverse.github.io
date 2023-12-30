@@ -106,3 +106,5 @@ let quizData = [
         ]
     }
 ]
+
+startQuiz()

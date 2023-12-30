@@ -22,6 +22,10 @@ const quizMetadata = [
             {
                 name: "evaluateAllWrongAnswered",
                 value: "{#} question(s) you didn't answer correctly."
+            },
+            {
+                name: "evaluateQuiz",
+                value: "Evaluate Quiz"
             }
         ]
     },
@@ -47,6 +51,10 @@ const quizMetadata = [
             {
                 name: "evaluateAllWrongAnswered",
                 value: "{#} Frage(n) falsch beantwortet."
+            },
+            {
+                name: "evaluateQuiz",
+                value: "Auswertung"
             }
         ]
     },
@@ -72,6 +80,10 @@ const quizMetadata = [
             {
                 name: "evaluateAllWrongAnswered",
                 value: "Bei {#} host de debbad gstejt."
+            },
+            {
+                name: "evaluateQuiz",
+                value: "Auswertung"
             }
         ]
     }
