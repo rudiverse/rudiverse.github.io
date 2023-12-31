@@ -12,6 +12,11 @@ defaults:
       layout: "quiz"
   - scope:
       path: ""
+      type: "quotes"
+    values:
+      layout: "quote"
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
@@ -27,4 +32,6 @@ defaults:
 
 collections:
   quizzes:
+    output: true
+  quotes:
     output: true

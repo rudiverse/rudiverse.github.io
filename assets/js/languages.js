@@ -15,6 +15,11 @@ const navigation = {
             link: "/blog/"
         },
         {
+            id: "quote",
+            name: "Quotes",
+            link: "/quotes/"
+        },
+        {
             id: "quiz",
             name: "Quizzes",
             link: "/quizzes/"
@@ -32,6 +37,11 @@ const navigation = {
             link: "/de/blog/"
         },
         {
+            id: "quote",
+            name: "Zitate",
+            link: "/de/quotes/"
+        },
+        {
             id: "quiz",
             name: "Rätseln",
             link: "/de/quizzes/"
@@ -47,6 +57,11 @@ const navigation = {
             id: "blog",
             name: "Schwafe",
             link: "/bar/blog/"
+        },
+        {
+            id: "quote",
+            name: "Zitate",
+            link: "/bar/quotes/"
         },
         {
             id: "quiz",
