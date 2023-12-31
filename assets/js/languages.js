@@ -17,7 +17,7 @@ const navigation = {
         {
             id: "quote",
             name: "Quotes",
-            link: "/quotes/"
+            link: "/quotes/one-quote"
         },
         {
             id: "quiz",
@@ -39,7 +39,7 @@ const navigation = {
         {
             id: "quote",
             name: "Zitate",
-            link: "/de/quotes/"
+            link: "/quotes/one-quote"
         },
         {
             id: "quiz",
@@ -61,7 +61,7 @@ const navigation = {
         {
             id: "quote",
             name: "Zitate",
-            link: "/bar/quotes/"
+            link: "/quotes/one-quote"
         },
         {
             id: "quiz",
