@@ -113,20 +113,22 @@ footer {
 
 .quote {
     margin-left: 60px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .quote_text {
     font-size: 1.2em;
-    font-weight: 700;
+    font-weight: 500;  
+    line-height: 1.5;
 }
 
 .quote_source{
     font-style: italic;
-    font-size: .9em;
+    font-size: 1.1em;
     padding-top: 20px;   
 }
 .quote_source_sub{
     font-style: italic;
-    font-size: .8em;
+    font-size: 1.1em;
+    padding-top: 10px;   
 }
