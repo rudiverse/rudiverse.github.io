@@ -41,5 +41,33 @@ let quoteData = [
         source_sub: "Writing on the wall",
         lang: "de",
         text: "Wer raucht, schubst auch kleine Kinder vom Nachttopf"
+    },
+    {
+        title: "What you pay attention to will define, for you, what reality is",
+        source: "Oliver Burkeman",
+        source_sub: "Four Thousand Weeks",
+        lang: "en",
+        text: "What you pay attention to will define, for you, what reality is"
+    },
+    {
+        title: "attention - paying with your life",
+        source: "Oliver Burkeman",
+        source_sub: "Four Thousand Weeks",
+        lang: "en",
+        text: "At the end of your life, looking back, whatever compelled your attention from moment to moment is simply what your life will have been. So when you pay attention to something you don't especially value, it's not an exaggeration to say that you're paying with your life."
+    },
+    {
+        title: "lasso, thrown from the present around the future",
+        source: "Oliver Burkeman",
+        source_sub: "Four Thousand Weeks",
+        lang: "en",
+        text: "A plan is just a thought. We treat our plans as though they are a lasso, thrown from the present around the future ... The future, of course, is under no obligation to comply."
+    },
+    {
+        title: "Capitalism energy anxiety of striving for more",
+        source: "Oliver Burkeman",
+        source_sub: "Four Thousand Weeks",
+        lang: "en",
+        text: "Capitalism gets its energy from the permanent anxiety of striving for more"
     }
 ]
