@@ -7,4 +7,4 @@
     <div id="quote_next_button"></div>
 </quote>
 
-<script language="javascript" src="/assets/js/quote_data.js"></script>
+<script language="javascript">showRandomQuote()</script>
