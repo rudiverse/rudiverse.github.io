@@ -26,13 +26,46 @@ function buildQuiz(quizItemIndex) {
 
     let quizItem = quizData[quizItemIndex]
 
+    const instructionElement = document.getElementById("quiz_instruction")
+    if (instructionElement != null) {
+        instructionElement.innerHTML = quizItem.instruction ?? ""
+    }
+
     const questionElement = document.getElementById("quiz_question")
     questionElement.innerHTML = quizItem.question
 
+    const answerSingleChoiceElement = document.getElementById("quiz_answers_ul")
+    answerSingleChoiceElement.replaceChildren()
+
+    const answerInputContainer = document.getElementById("answer_type_text_input")
+
+    if (quizItem.answer != null) {
+        buildTextInputAnswerElements(quizItemIndex)
+        answerInputContainer.style = "display:inline-block"
+    } else {
+        buildSingleChoiceAnswers(quizItem, quizItemIndex)
+        answerInputContainer.style = "display:none"
+    }
+}
+
+function buildTextInputAnswerElements(quizItemIndex) {
+    const answerInputElement = document.getElementById("quiz_answer_text")
+    answerInputElement.value = ""
+
+    let evalButton = document.createElement("button")
+    evalButton.className = "quiz_button"
+
+    evalButton.setAttribute('onclick', "evaluateQuestionTextInput(" + quizItemIndex + ")")
+    evalButton.innerHTML = "GO"
+
+    const evalButtonElement = document.getElementById("quiz_evaluate_button_answer_text")
+    evalButtonElement.appendChild(evalButton)
+}
+
+function buildSingleChoiceAnswers(quizItem, quizItemIndex) {
     randomise(quizItem.answers)
 
     const answerElement = document.getElementById("quiz_answers_ul")
-    answerElement.replaceChildren()
 
     quizItem.answers.forEach(item => {
         var answerItem = document.createElement("li");
@@ -46,6 +79,17 @@ function buildQuiz(quizItemIndex) {
         answerItem.appendChild(a)
         answerElement.appendChild(answerItem)
     });
+}
+
+function evaluateQuestionTextInput(quizItemIndex) {
+    const answerInputElement = document.getElementById("quiz_answer_text")
+    let answer = answerInputElement.value
+
+    let quizItem = quizData[quizItemIndex]
+
+    let isAnswerCorrect = ciEquals(answer, quizItem.answer)
+
+    showEvaluation(isAnswerCorrect, quizItemIndex)
 }
 
 function evaluateQuestion(quizItemIndex, answerSelected) {
@@ -71,9 +115,13 @@ function evaluateQuestion(quizItemIndex, answerSelected) {
         answerElement.appendChild(answerItem)
     });
 
+    showEvaluation(answerFound.valid, quizItemIndex)
+}
+
+function showEvaluation(isAnswerCorrect, quizItemIndex) {
     const evaluationElement = document.getElementById("quiz_evaluation")
 
-    if (answerFound.valid) {
+    if (isAnswerCorrect) {
         correctAnswers++
         evaluationElement.innerHTML = getText("evaluateCorrectAnswer")
         evaluationElement.className = "quiz_evaluation_correct"
@@ -104,7 +152,7 @@ function evaluateQuiz() {
 
     const evaluationElement = document.getElementById("quiz_evaluation")
     evaluationElement.replaceChildren()
-    
+
     const questionElement = document.getElementById("quiz_question")
     questionElement.replaceChildren()
 
@@ -126,4 +174,10 @@ function randomise(data) {
         data[i] = data[j];
         data[j] = k;
     }
+}
+
+function ciEquals(a, b) {
+    return typeof a === 'string' && typeof b === 'string'
+        ? a.localeCompare(b, undefined, { sensitivity: 'accent' }) === 0
+        : a === b;
 }

@@ -3,8 +3,13 @@ title: "First Quiz (capital guessing)"
 language: english
 ---
 <quiz>
-    <h3 id="quiz_question"></h3>
-    <div>
+    <h3 id="quiz_instruction"></h3>
+    <h2 id="quiz_question"></h2>
+    <div id="answer_type_text_input">
+        <input type="text" autocomplete="off" autocorrect="off" dir="ltr" id="quiz_answer_text" maxlength="64" name="quiz_answer_text" placeholder="" spellcheck="false" title="Answer" value="">
+        <div id="quiz_evaluate_button_answer_text"></div>
+    </div>
+    <div id="answer_type_single_choice">
         <ul id="quiz_answers_ul" class="quiz_answers">
         </ul>
     </div>
