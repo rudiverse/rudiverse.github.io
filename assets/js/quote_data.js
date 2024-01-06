@@ -69,5 +69,12 @@ let quoteData = [
         source_sub: "Four Thousand Weeks",
         lang: "en",
         text: "Capitalism gets its energy from the permanent anxiety of striving for more"
+    },
+    {
+        title: "",
+        source: "Bruce Springsteen",
+        source_sub: "The River",
+        lang: "en",
+        text: "Is a dream a lie if it don't come true\\Or is it something worse?"
     }
 ]
