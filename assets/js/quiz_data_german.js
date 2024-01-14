@@ -43,6 +43,28 @@ let quizData = [
         ]
     },
     {
+        question: 'Von wem stammt: "Wenn der Franz aus dem Fenster springt, fällt er nach oben"?',
+        source: "https://www.sueddeutsche.de/sport/franz-beckenbauer-tod-reaktionen-1.6329971",
+        answers: [
+            {
+                answer: "Wilhelm Busch",
+                valid: false
+            },
+            {
+                answer: "Sepp Maier",
+                valid: true
+            },
+            {
+                answer: "Max Merkel",
+                valid: false
+            },
+            {
+                answer: "Werner Schmidbauer",
+                valid: false
+            },
+        ]
+    },
+    {
         question: 'Von wem stammt: "Regen foit auf Milos, und i stej ma vor, wias an Regntagn mit dir woa"?',
         answers: [
             {

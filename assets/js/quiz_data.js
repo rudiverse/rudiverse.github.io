@@ -16,7 +16,7 @@ let quizData = [
         answer: "lie"
     },
     {
-        question: "Which song claims that love, hope, and friends, are defective?",
+        question: "Which song claims that love, hope, and friends are defective?",
         answers: [
             {
                 answer: "The End, by The Doors",
