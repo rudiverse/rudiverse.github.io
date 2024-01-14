@@ -19,4 +19,4 @@ language: boarisch
     <div id="quiz_next_button"></div>
 </quiz>
 
-<script language="javascript" src="/assets/js/quiz_data_music_mixed.js"></script>
+<script language="javascript" src="/assets/js/quiz_data_german.js"></script>
