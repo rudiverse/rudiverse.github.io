@@ -1,6 +1,6 @@
 ---
-title: "Musik-Quiz über bairischen Sprachraum"
-language: boarisch
+title: "Deutschsprachiges Quiz"
+language: deutsch
 ---
 <quiz>
     <h3 id="quiz_instruction"></h3>

@@ -126,6 +126,158 @@ let quizData = [
                 valid: false
             },
         ]
+    },
+    {
+        question: 'Wo wurde Willi Resetarits geboren?',
+        answers: [
+            {
+                answer: "Stinatz, Burgenland",
+                valid: true
+            },
+            {
+                answer: "Fürstenfeld, Steiermark",
+                valid: false
+            },
+            {
+                answer: "Wien",
+                valid: false
+            },
+            {
+                answer: "Salzburg",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Welche Sprache lernten Lukas und Willi Resetarits zuerst?',
+        answers: [
+            {
+                answer: "Kroatisch",
+                valid: true
+            },
+            {
+                answer: "Wienerisch",
+                valid: false
+            },
+            {
+                answer: "Deutsch",
+                valid: false
+            },
+            {
+                answer: "Burgenländisch",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Wessen Idee war die Kunstfigur Ostbahn Kurti?',
+        answers: [
+            {
+                answer: "Willi Resetarits",
+                valid: false
+            },
+            {
+                answer: "Günter Brödl",
+                valid: true
+            },
+            {
+                answer: "Peter Patzak",
+                valid: false
+            },
+            {
+                answer: "Helmut Zenker",
+                valid: false
+            },
+        ]
+    },
+    {
+        instruction: "Was sprayte der Wiener Schriftsteller, Songtexter und Musikjournalist Günter Brödl auf Autobahnbrücken?",
+        question: "Kurt _____ lebt",
+        answer: "Ostbahn"
+    },
+    {
+        question: 'Welcher Künstler verkörperte den Ostbahn Kurti?',
+        answers: [
+            {
+                answer: "Willi Resetarits",
+                valid: true
+            },
+            {
+                answer: "Lukas Resetarits",
+                valid: false
+            },
+            {
+                answer: "Peter Patzak",
+                valid: false
+            },
+            {
+                answer: "Helmut Zenker",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Welcher Schauspieler und Kabarattist spielte Polizeimajor Adolf Kottan?',
+        answers: [
+            {
+                answer: "Willi Resetarits",
+                valid: false
+            },
+            {
+                answer: "Lukas Resetarits",
+                valid: true
+            },
+            {
+                answer: "Peter Patzak",
+                valid: false
+            },
+            {
+                answer: "Helmut Zenker",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Wer schrieb die Satire um den Wiener Polizeimajor Adolf Kottan?',
+        answers: [
+            {
+                answer: "Willi Resetarits",
+                valid: false
+            },
+            {
+                answer: "Lukas Resetarits",
+                valid: false
+            },
+            {
+                answer: "Peter Patzak",
+                valid: false
+            },
+            {
+                answer: "Helmut Zenker",
+                valid: true
+            },
+        ]
+    },
+    {
+        question: 'Wer führte die Regie in "Kottan ermittelt"?',
+        answers: [
+            {
+                answer: "Willi Resetarits",
+                valid: false
+            },
+            {
+                answer: "Lukas Resetarits",
+                valid: false
+            },
+            {
+                answer: "Peter Patzak",
+                valid: true
+            },
+            {
+                answer: "Helmut Zenker",
+                valid: false
+            },
+        ]
     }
 ]
 
