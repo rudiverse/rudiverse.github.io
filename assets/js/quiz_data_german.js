@@ -278,7 +278,112 @@ let quizData = [
                 valid: false
             },
         ]
-    }
+    },
+    {
+        question: 'Wer sagte bei der Vorstellung der Band gewöhnlich: "Und i, i bin wia immer des letzte S"?',
+        answers: [
+            {
+                answer: "Stefanie Werger",
+                valid: false
+            },
+            {
+                answer: "Werner Schmidbauer",
+                valid: false
+            },
+            {
+                answer: "Schiffkowitz",
+                valid: true
+            },
+            {
+                answer: "Gert Steinbäcker",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'In welchem Land leb(t)en sowohl Werner Schmidbauer als auch Klaus Eberhartinger?',
+        answers: [
+            {
+                answer: "Südafrika",
+                valid: false
+            },
+            {
+                answer: "Brasilien",
+                valid: false
+            },
+            {
+                answer: "Kenia",
+                valid: true
+            },
+            {
+                answer: "Kanada",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Wo wurde Werner Schmidbauer zu seinem "Strandliad" inspiriert?',
+        answers: [
+            {
+                answer: "Algarve",
+                valid: false
+            },
+            {
+                answer: "Neuseeland",
+                valid: false
+            },
+            {
+                answer: "Kenia",
+                valid: true
+            },
+            {
+                answer: "Copacabana",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Aus welchem Lied stammt "I woaß iazd, daß geht, es ko nix mehr bassiern"?',
+        answers: [
+            {
+                answer: "Der Watzmann, von Wolfgang Ambros",
+                valid: false
+            },
+            {
+                answer: "Großvater, von Gert Steinbäcker",
+                valid: false
+            },
+            {
+                answer: "Strandliad, von Werner Schmidbauer",
+                valid: true
+            },
+            {
+                answer: "De Zeit is reif, von Schariwari",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Wo befindet sich die nördlichste Universitätsstadt der Welt?',
+        answers: [
+            {
+                answer: "Rovaniemi, Finnland",
+                valid: false
+            },
+            {
+                answer: "Murmansk, Russland",
+                valid: false
+            },
+            {
+                answer: "Tromsø, Norwegen",
+                valid: true
+            },
+            {
+                answer: "Edmonton, Kanada",
+                valid: false
+            },
+        ]
+    },
 ]
 
 startQuiz()
