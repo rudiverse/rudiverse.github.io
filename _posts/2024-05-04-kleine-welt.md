@@ -2,9 +2,9 @@
 title: "Kleine Welt"
 date: 2024-05-04
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
-en: enhancing
+en: required
 de: required
-bar: enhancing
+bar: required
 ---
 Die Welt wird mir zu klein  
 Die Welt war mir zu klein  
@@ -46,7 +46,7 @@ Warum schreibe ich erst auf deutsch
 Und drifte dann ins Boarische und Englische  
 Coz it's all just one world
 
-Ich fühle mich nur in einem kleinen Teil unserer großen, weiten "Kleinen Welt" wohl  
+Ich fühle mich nur in einem kleinen Teil unserer großen, weiten *Kleinen Welt* wohl  
 Zu große Unterschiede zwischen den künstlich generierten Teilwelten  
 Aber ich fühle mich allen Teilen verbunden
 
