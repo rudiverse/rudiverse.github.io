@@ -81,7 +81,120 @@ let quizData = [
         ],
         source: "The Real Fidel Castro (book)",
         source_sub: "Leycester Coltman (author)"
-    }
+    },
+    {
+        question: "What lies closest to the equator?",
+        answers: [
+            {
+                answer: "Wellington, New Zealand",
+                info: "-41.28",
+                valid: false
+            },
+            {
+                answer: "Madrid, Spain",
+                info: "40.4",
+                valid: false
+            },
+            {
+                answer: "Istanbul, Turkey",
+                info: "41.01",
+                valid: false
+            },
+            {
+                answer: "Tokyo, Japan",
+                info: "35.7",
+                valid: true
+            },
+        ],
+    },
+    {
+        question: "What is furthest away from the equator?",
+        answers: [
+            {
+                answer: "Wellington, New Zealand",
+                info: "-41.28",
+                valid: true
+            },
+            {
+                answer: "Madrid, Spain",
+                info: "40.4",
+                valid: false
+            },
+            {
+                answer: "Istanbul, Turkey",
+                info: "41.01",
+                valid: false
+            },
+            {
+                answer: "Tokyo, Japan",
+                info: "35.7",
+                valid: false
+            },
+        ],
+    },
+    {
+        question: "What divides New Zealand's North & South Islands?",
+        answers: [
+            {
+                answer: "Tory Strait",
+                valid: true
+            },
+            {
+                answer: "Pacific Ocean",
+                valid: false
+            },
+            {
+                answer: "Tasman Sea",
+                valid: false
+            },
+            {
+                answer: "Atlantic Ocean",
+                valid: false
+            },
+        ],
+    },
+    {
+        question: "What lies between New Zealand and Australia?",
+        answers: [
+            {
+                answer: "Tory Strait",
+                valid: false
+            },
+            {
+                answer: "Pacific Ocean",
+                valid: false
+            },
+            {
+                answer: "Tasman Sea",
+                valid: true
+            },
+            {
+                answer: "Indian Ocean",
+                valid: false
+            },
+        ],
+    },
+    {
+        question: "What is Australia's southernmost state?",
+        answers: [
+            {
+                answer: "New South Wales",
+                valid: false
+            },
+            {
+                answer: "Victoria",
+                valid: false
+            },
+            {
+                answer: "Tasmania",
+                valid: true
+            },
+            {
+                answer: "South Australia",
+                valid: false
+            },
+        ],
+    },
 ]
 
 startQuiz()
