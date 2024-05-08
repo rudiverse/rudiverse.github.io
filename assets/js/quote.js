@@ -1,6 +1,7 @@
-function showRandomQuote() {
-    let randomQuoteIndex = Math.floor(Math.random() * quoteData.length)
-    let randomQuote = quoteData[randomQuoteIndex]
+function showRandomQuote(skipThisQuote) {
+    let languageQuotes = quoteData.filter(x => x.lang == getLanguage() && x.title != skipThisQuote)
+    let randomQuoteIndex = Math.floor(Math.random() * languageQuotes.length)
+    let randomQuote = languageQuotes[randomQuoteIndex]
 
     showOneQuote(randomQuote)
 }
@@ -34,6 +35,8 @@ function showOneQuote(randomQuote) {
     } else {
         sourceSubElement.innerHTML = randomQuote.source_sub
     }
+
+    showQuoteButton(randomQuote)
 }
 
 function areRelatedQuotesBySource(fromQuote) {
@@ -70,4 +73,16 @@ function showRelatedQuoteBySourceSub(fromQuote) {
     let randomQuote = relatedQuotes[randomQuoteIndex]
 
     showOneQuote(randomQuote)
+}
+
+function showQuoteButton(randomQuote) {
+    let nextButton = document.createElement("button")
+    nextButton.className = "quote_button"
+
+    nextButton.setAttribute('onclick', "showRandomQuote(\"" + (randomQuote.title) + "\")")
+    nextButton.innerHTML = " >> "
+
+    const nextButtonElement = document.getElementById("quote_next_button")
+    nextButtonElement.replaceChildren()
+    nextButtonElement.appendChild(nextButton)
 }

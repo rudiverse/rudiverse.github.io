@@ -2,7 +2,7 @@
 title: "Kleine Welt"
 date: 2024-05-04
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
-en: required
+en: enhancing
 de: required
 bar: required
 ---

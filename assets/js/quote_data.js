@@ -1,6 +1,13 @@
 
 let quoteData = [
     {
+        title: "Strandliad",
+        source: "Werner Schmidbauer",
+        source_sub: "Strandliad",
+        lang: "bar",
+        text: "A Spaziergang durch Raum und Zeit\\I woaß iazd, daß geht\\Es ko nix mehr bassiern"
+    },
+    {
         title: "De Zeit is reif",
         source: "Schariwari",
         source_sub: "De Zeit is reif",
