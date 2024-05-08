@@ -2,7 +2,7 @@
 title: "Mediterranean Warehouse, Newtown"
 date: 2024-01-13
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
-en: enhancing
+en: minor
 de: none
 bar: required
 ---
