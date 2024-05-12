@@ -195,6 +195,69 @@ let quizData = [
             },
         ],
     },
+    {
+        question: "On 2 January 1969, the tenth anniversary of the revolution, what did Fidel Castro ask a huge crowd in Revolution Square?",
+        answers: [
+            {
+                answer: "Whether they would agree to have their sugar ration reduced",
+                valid: true
+            },
+            {
+                answer: "Whether Cuba should adopt a Soviet style communism",
+                valid: false
+            },
+            {
+                answer: "Whether Cuba should claim back Guantanamo Bay from the USA",
+                valid: false
+            },
+            {
+                answer: "Whether they wanted free universal healthcare",
+                valid: false
+            },
+        ],
+    },
+    {
+        question: "In 1969, ten years after the Cuban revolution, what did Cubans NOT have?",
+        answers: [
+            {
+                answer: "Fish from street vendors",
+                valid: true
+            },
+            {
+                answer: "Free medical treatment",
+                valid: false
+            },
+            {
+                answer: "Free meals for schoolchildren",
+                valid: false
+            },
+            {
+                answer: "Smart school uniforms",
+                valid: false
+            },
+        ],
+    },
+    {
+        question: "In Cuba, who was sometimes mistaken for the commander in chief, because of their similar appearance and gestures?",
+        answers: [
+            {
+                answer: "Ramón Castro",
+                valid: true
+            },
+            {
+                answer: "Raúl Castro",
+                valid: false
+            },
+            {
+                answer: "Fidel Castro",
+                valid: false
+            },
+            {
+                answer: "Ernesto Che Guevara",
+                valid: false
+            },
+        ],
+    },
 ]
 
 startQuiz()
