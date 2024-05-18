@@ -16,6 +16,36 @@ let quizData = [
         answer: "lie"
     },
     {
+        instruction: "Add the missing surname",
+        question: "After a decade of being the only \"beacon of Socialism\" in Latin America, Fidel Castro now had a friend and ally in Salvador _____, elected President of Chile.",
+        answer: "Allende"
+    },
+    {
+        question: "Who was elected President of Chile in 1970 at the head of a shaky left-wing coalition?",
+        answers: [
+            {
+                answer: "Ernesto Che Guevara",
+                valid: false
+            },
+            {
+                answer: "Salvador Allende",
+                valid: true
+            },
+            {
+                answer: "Fidel Castro",
+                valid: false
+            },
+            {
+                answer: "Barack Obama",
+                valid: false
+            },
+            {
+                answer: "Angela Merkel",
+                valid: false
+            },
+        ]
+    },
+    {
         question: "Which song claims that love, hope, and friends are defective?",
         answers: [
             {
