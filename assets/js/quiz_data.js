@@ -166,7 +166,7 @@ let quizData = [
         question: "What divides New Zealand's North & South Islands?",
         answers: [
             {
-                answer: "Tory Strait",
+                answer: "Cook Strait",
                 valid: true
             },
             {
@@ -187,7 +187,7 @@ let quizData = [
         question: "What lies between New Zealand and Australia?",
         answers: [
             {
-                answer: "Tory Strait",
+                answer: "Cook Strait",
                 valid: false
             },
             {
