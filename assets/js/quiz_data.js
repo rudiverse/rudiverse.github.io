@@ -21,6 +21,288 @@ let quizData = [
         answer: "Allende"
     },
     {
+        instruction: "Add the channel name",
+        question: "The ferries connecting New Zealand's North and South Islands enter the Marlborough Sounds through _____ Channel (Kura Te Au)",
+        answer: "Tory"
+    },
+    {
+        question: "Where is the South Island port of New Zealand's Cook Strait ferries?",
+        answers: [
+            {
+                answer: "Wellington",
+                valid: false
+            },
+            {
+                answer: "Picton",
+                valid: true
+            },
+            {
+                answer: "Christchurch",
+                valid: false
+            },
+            {
+                answer: "Nelson",
+                valid: false
+            },
+            {
+                answer: "Blenheim",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: "Which of these is/are New Zealand's southernmost island(s)?",
+        answers: [
+            {
+                answer: "South Island",
+                valid: false
+            },
+            {
+                answer: "Stewart Island",
+                valid: true
+            },
+            {
+                answer: "Chatham Islands",
+                valid: false
+            },
+            {
+                answer: "Tasmania",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: "Which option of New Zealand's geography is closest to the truth?",
+        answers: [
+            {
+                answer: "Nelson lies to the SOUTH of Wellington",
+                valid: false
+            },
+            {
+                answer: "Nelson lies to the WEST of Wellington",
+                valid: true
+            },
+            {
+                answer: "Nelson lies to the EAST of Wellington",
+                valid: false
+            },
+            {
+                answer: "Nelson lies to the NORTH of Wellington",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: "Which of these is Stewart Island's main settlement?",
+        answers: [
+            {
+                answer: "Bluff",
+                valid: false
+            },
+            {
+                answer: "Oban",
+                valid: true
+            },
+            {
+                answer: "Invercargill",
+                valid: false
+            },
+            {
+                answer: "Hobart",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: "What are Keas known to do on Arthur's Pass, New Zealand?",
+        answers: [
+            {
+                answer: "Attack cats and dogs",
+                valid: false
+            },
+            {
+                answer: "Steal people's hats",
+                valid: false
+            },
+            {
+                answer: "Nibble on the rubber of cars' screen wipers",
+                valid: true
+            },
+            {
+                answer: "Attack bungy jumpers on the rebound",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: "What will you most likely encounter when you stop at Otira Viaduct Lookout, Arthur's Pass, New Zealand?",
+        answers: [
+            {
+                answer: "Eagles",
+                valid: false
+            },
+            {
+                answer: "Wild goats",
+                valid: false
+            },
+            {
+                answer: "Keas",
+                valid: true
+            },
+            {
+                answer: "Bungy jumpers",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: "What lies on SH73, between Christchurch and the West Coast, New Zealand?",
+        answers: [
+            {
+                answer: "French Pass",
+                valid: false
+            },
+            {
+                answer: "Homer Tunnel",
+                valid: false
+            },
+            {
+                answer: "Arthur's Pass",
+                valid: true
+            },
+            {
+                answer: "Lake Wakatipu",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: "The road from Te Anau to Milford Sound, New Zealand, features what?",
+        answers: [
+            {
+                answer: "French Pass",
+                valid: false
+            },
+            {
+                answer: "Homer Tunnel",
+                valid: true
+            },
+            {
+                answer: "Arthur's Pass",
+                valid: false
+            },
+            {
+                answer: "Lake Wakatipu",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: "Which place is at the northernmost point of Lake Wakatipu, New Zealand?",
+        answers: [
+            {
+                answer: "Wanaka",
+                valid: false
+            },
+            {
+                answer: "Glenorchy",
+                valid: true
+            },
+            {
+                answer: "Queenstown",
+                valid: false
+            },
+            {
+                answer: "Cromwell",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: "Queenstown, New Zealand, lies at which lake?",
+        answers: [
+            {
+                answer: "Wanaka",
+                valid: false
+            },
+            {
+                answer: "Wakatipu",
+                valid: true
+            },
+            {
+                answer: "Pukaki",
+                valid: false
+            },
+            {
+                answer: "Tekapo",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: "Where in New Zealand is French Pass?",
+        answers: [
+            {
+                answer: "Mackenzie District, Canterbury",
+                valid: false
+            },
+            {
+                answer: "Marlborough",
+                valid: true
+            },
+            {
+                answer: "Desert Road",
+                valid: false
+            },
+            {
+                answer: "Otago",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: "Picton is part of which New Zealand region?",
+        answers: [
+            {
+                answer: "Canterbury",
+                valid: false
+            },
+            {
+                answer: "Marlborough",
+                valid: true
+            },
+            {
+                answer: "Tasman",
+                valid: false
+            },
+            {
+                answer: "Golden Bay",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: "Where in New Zealand is the town of Takaka?",
+        answers: [
+            {
+                answer: "Canterbury",
+                valid: false
+            },
+            {
+                answer: "Marlborough",
+                valid: false
+            },
+            {
+                answer: "West Coast",
+                valid: false
+            },
+            {
+                answer: "Golden Bay",
+                valid: true
+            },
+        ]
+    },
+    {
         question: "Who was elected President of Chile in 1970 at the head of a shaky left-wing coalition?",
         answers: [
             {
