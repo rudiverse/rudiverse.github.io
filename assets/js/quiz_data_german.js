@@ -241,7 +241,7 @@ let quizData = [
         question: 'Wer schrieb die Satire um den Wiener Polizeimajor Adolf Kottan?',
         answers: [
             {
-                answer: "Willi Resetarits",
+                answer: "Günter Brödl",
                 valid: false
             },
             {
@@ -275,6 +275,119 @@ let quizData = [
             },
             {
                 answer: "Helmut Zenker",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Welche Figur kommt in "Kottan ermittelt" NICHT vor?',
+        answers: [
+            {
+                answer: "Adolf Kottan",
+                valid: false
+            },
+            {
+                answer: "Pilch",
+                valid: false
+            },
+            {
+                answer: "Ostbahn Kurti",
+                valid: true
+            },
+            {
+                answer: "Schrammel",
+                valid: false
+            },
+            {
+                answer: "Schremser",
+                valid: false
+            },
+            {
+                answer: "Sandler Erwin",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Welche Polizisten sind Kottans Gehilfen in "Kottan ermittelt"?',
+        answers: [
+            {
+                answer: "Pilch & Schrammel",
+                valid: false
+            },
+            {
+                answer: "Pilch & Schremser",
+                valid: false
+            },
+            {
+                answer: "Schrammel & Schremser",
+                valid: true
+            },
+            {
+                answer: "Pilch & Schrammel & Schremser",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Wer ist Kottans Vorgesetzter in "Kottan ermittelt"?',
+        answers: [
+            {
+                answer: "Pilch",
+                valid: true
+            },
+            {
+                answer: "Schremser",
+                valid: false
+            },
+            {
+                answer: "Schrammel",
+                valid: false
+            },
+            {
+                answer: "Professor Kurt Ostbahn",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Was irritiert den Polizeipräsidenten in "Kottan ermittelt" regelmäßig?',
+        answers: [
+            {
+                answer: "Stubenfliegen",
+                valid: true
+            },
+            {
+                answer: "Sandler Erwin",
+                valid: false
+            },
+            {
+                answer: "Hubschrauber",
+                valid: false
+            },
+            {
+                answer: "Tomaten",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Wer findet oft Leichen in "Kottan ermittelt"?',
+        answers: [
+            {
+                answer: "Professor Kurt Ostbahn",
+                valid: false
+            },
+            {
+                answer: "Sandler Erwin",
+                valid: true
+            },
+            {
+                answer: "Schremser",
+                valid: false
+            },
+            {
+                answer: "Schrammel",
                 valid: false
             },
         ]
