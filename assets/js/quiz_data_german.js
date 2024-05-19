@@ -384,6 +384,119 @@ let quizData = [
             },
         ]
     },
+    {
+        question: 'In 2004, der SV Werder Bremen gewann das Double aus Meisterschaft und DFB-Pokal. Welchen Spitznamen hatte da der brasilianische Stürmer Ailton?',
+        answers: [
+            {
+                answer: "Großvater",
+                valid: false
+            },
+            {
+                answer: "Bomber der Nation",
+                valid: false
+            },
+            {
+                answer: "Kugelblitz",
+                valid: true
+            },
+            {
+                answer: "Rennsemmel",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'In welchem Stadion sicherte sich der SV Werder Bremen durch einen Sieg 2004 vorzeitig die Meisterschaft?',
+        answers: [
+            {
+                answer: "Am Millerntor Hamburg",
+                valid: false
+            },
+            {
+                answer: "Volkspark Hamburg",
+                valid: false
+            },
+            {
+                answer: "Olympiastadion München",
+                valid: true
+            },
+            {
+                answer: "Bremer Weserstadion",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Welche Nationalmannschaft blieb als einzige bei der Weltmeisterschaft 2010 ungeschlagen?',
+        answers: [
+            {
+                answer: "Deutschland",
+                valid: false
+            },
+            {
+                answer: "Spanien",
+                valid: false
+            },
+            {
+                answer: "Neuseeland",
+                valid: true
+            },
+            {
+                answer: "Italien",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Wer gewann die Weltmeisterschaft 2010?',
+        answers: [
+            {
+                answer: "Deutschland",
+                valid: false
+            },
+            {
+                answer: "Spanien",
+                valid: true
+            },
+            {
+                answer: "Neuseeland",
+                valid: false
+            },
+            {
+                answer: "Italien",
+                valid: false
+            },
+        ]
+    },
+    {
+        question: 'Wie endete die Gruppe F der Weltmeisterschaft 2010?',
+        answers: [
+            {
+                answer: "1 Italien - 2 Slowakei - 3 Neuseeland - 4 Paraguay",
+                valid: false
+            },
+            {
+                answer: "1 Paraguay - 2 Slowakei - 3 Neuseeland - 4 Italien",
+                valid: true
+            },
+            {
+                answer: "1 Italien - 2 Slowakei - 3 Paraguay - 4 Neuseeland",
+                valid: false
+            },
+            {
+                answer: "1 Slowakei - 2 Italien - 3 Neuseeland - 4 Paraguay",
+                valid: false
+            },
+            {
+                answer: "1 Italien - 2 Paraguay - 3 Slowakei - 4 Neuseeland",
+                valid: false
+            },
+            {
+                answer: "1 Neuseeland - 2 Slowakei - 3 Italien - 4 Paraguay",
+                valid: false
+            },
+        ]
+    },
 ]
 
 startQuiz()
