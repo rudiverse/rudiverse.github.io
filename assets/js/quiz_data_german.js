@@ -409,11 +409,11 @@ let quizData = [
         question: 'In welchem Stadion sicherte sich der SV Werder Bremen durch einen Sieg 2004 vorzeitig die Meisterschaft?',
         answers: [
             {
-                answer: "Am Millerntor Hamburg",
+                answer: "Stadion Am Millerntor, Hamburg",
                 valid: false
             },
             {
-                answer: "Volkspark Hamburg",
+                answer: "Hamburger Volksparkstadion",
                 valid: false
             },
             {
