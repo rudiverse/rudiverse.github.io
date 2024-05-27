@@ -83,5 +83,12 @@ let quoteData = [
         source_sub: "The River",
         lang: "en",
         text: "Is a dream a lie if it don't come true\\Or is it something worse?"
-    }
+    },
+    {
+        title: "The Boxer",
+        source: "Paul Simon & Joan Baez",
+        source_sub: "The Boxer, 2016 live NYC",
+        lang: "en",
+        text: "I am older than I once was\\And younger than I'll be\\But that's not unusual\\Nor is it strange\\After changes upon changes\\We are more or less the same"
+    },
 ]
