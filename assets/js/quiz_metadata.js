@@ -5,27 +5,27 @@ const quizMetadata = [
         texts: [
             {
                 name: "loadQuizButton",
-                value: "Load Quiz"
+                values: ["Load Quiz"]
             },
             {
                 name: "evaluateCorrectAnswer",
-                value: "Well done, you nailed it!"
+                values: ["Well done, you nailed it", "Awesome", "Brilliant", "Fantastic"]
             },
             {
                 name: "evaluateWrongAnswer",
-                value: "Oh no, you need to study more."
+                values: ["Oh no, you need to study more", "Oops, not quite", "Nope, not at all", "No no no"]
             },
             {
                 name: "evaluateAllCorrectAnswered",
-                value: "{#} question(s) answered correctly."
+                values: ["{#} question(s) answered correctly."]
             },
             {
                 name: "evaluateAllWrongAnswered",
-                value: "{#} question(s) you didn't answer correctly."
+                values: ["{#} question(s) you didn't answer correctly."]
             },
             {
                 name: "evaluateQuiz",
-                value: "Evaluate Quiz"
+                values: ["Evaluate Quiz"]
             }
         ]
     },
@@ -34,27 +34,27 @@ const quizMetadata = [
         texts: [
             {
                 name: "loadQuizButton",
-                value: "Quiz laden"
+                values: ["Quiz laden"]
             },
             {
                 name: "evaluateCorrectAnswer",
-                value: "Super, perfekt!"
+                values: ["Super, perfekt", "Optimal", "Stimmt", "Perfekt", "Wunderbar"]
             },
             {
                 name: "evaluateWrongAnswer",
-                value: "Oh nein, leider falsch."
+                values: ["Oh nein, leider falsch", "Nein, leider nicht", "Da besteht noch Übungsbedarf", "Schade aber auch"]
             },
             {
                 name: "evaluateAllCorrectAnswered",
-                value: "{#} Frage(n) richtig beantwortet."
+                values: ["{#} Frage(n) richtig beantwortet."]
             },
             {
                 name: "evaluateAllWrongAnswered",
-                value: "{#} Frage(n) falsch beantwortet."
+                values: ["{#} Frage(n) falsch beantwortet."]
             },
             {
                 name: "evaluateQuiz",
-                value: "Auswertung"
+                values: ["Auswertung"]
             }
         ]
     },
@@ -63,27 +63,27 @@ const quizMetadata = [
         texts: [
             {
                 name: "loadQuizButton",
-                value: "Quiz lodn"
+                values: ["Quiz lodn"]
             },
             {
                 name: "evaluateCorrectAnswer",
-                value: "Basst, sauguad!"
+                values: ["Basst, sauguad", "Respekt, bravo", "Super", "Ja, mi host ghaut, sehr guad"]
             },
             {
                 name: "evaluateWrongAnswer",
-                value: "Schmarrn!"
+                values: ["Schmarrn", "Na, des stimmt ned", "Ah geh, wiakle ned", "Naaaa", "Blädsinn", "Lebst a bisse hintam Mond?", "Oha, muaßt a bisse friara aufsteh"]
             },
             {
                 name: "evaluateAllCorrectAnswered",
-                value: "{#} host gwusst."
+                values: ["{#} host gwusst."]
             },
             {
                 name: "evaluateAllWrongAnswered",
-                value: "Bei {#} host de debbad gstejt."
+                values: ["Bei {#} host de debbad gstejt."]
             },
             {
                 name: "evaluateQuiz",
-                value: "Auswertung"
+                values: ["Auswertung"]
             }
         ]
     }
