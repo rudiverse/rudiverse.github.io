@@ -561,7 +561,7 @@ let quizData = [
         ]
     },
     {
-        question: 'Wer gewann die Weltmeisterschaft 2010?',
+        question: 'Wer gewann die Fußball-Weltmeisterschaft 2010?',
         answers: [
             {
                 answer: "Deutschland",

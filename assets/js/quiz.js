@@ -8,6 +8,12 @@ function getText(name) {
     let langTexts = quizMetadata.find(x => x.language == getLanguage()).texts
     let textObject = langTexts.find(x => x.name == name)
     let text = textObject.value
+
+    if (text) return text
+
+    let randomTextIndex = Math.floor(Math.random() * textObject.values.length)
+    text = textObject.values[randomTextIndex]
+
     return text
 }
 
