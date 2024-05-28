@@ -7,6 +7,9 @@ function showRandomQuote(skipThisQuote) {
 }
 
 function showOneQuote(randomQuote) {
+    const titleElement = document.getElementById("quote_title")
+    titleElement.innerHTML = randomQuote.title
+
     const textElement = document.getElementById("quote_text")
     textElement.innerHTML = randomQuote.text.replaceAll("\\", "<br />")
 
