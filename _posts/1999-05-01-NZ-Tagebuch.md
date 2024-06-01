@@ -3,8 +3,8 @@ title: "Neuseeland von Dezember 1998 bis April 1999"
 date: 1999-05-01
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
 en: enhancing
-de: required
-bar: required
+de: hidden
+bar: hidden
 ---
 *8/12/98*  
 Once back in time, when I was young und no dahoam, war’s net so leicht. I was so much older then, oder war zumindest kurz davor, zu alt zu sein.
