@@ -32,7 +32,7 @@ Ja, es ist irgendwie paradox
 
 Sollen wir es nochmal starten  
 Ohne Menschen  
-Wo würden wir die Grenze setzen
+Wo würden wir die Grenze ziehen
 
 Säugetiere nicht mehr erlauben?  
 Hirngröße beschränken?  
