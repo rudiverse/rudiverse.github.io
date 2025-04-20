@@ -119,3 +119,5 @@ Des wos i gsuacht hob
 Mei eigena Samen  
 I hob des Unbekannte gsuacht  
 Drum bin i do gwen
+
+![Delirium](/assets/images/Delirium.jpg)
