@@ -22,6 +22,20 @@ let quoteData = [
         text: "Wenn ich so philosophier\\Bei ein paar Flaschen Bier\\Versunken in absurden Gedanken\\Kommt mein Bewusstsein ins Wanken"
     },
     {
+        title: "It's been so long - record",
+        source: "Greg Johnson",
+        source_sub: "It's been so long",
+        lang: "en",
+        text: "When Everything Seems Hopeless\\Just Remember Where You’re From\\If I Had To Choose You A Record\\I Hope I’d Choose Your Favourite Song"
+    },
+    {
+        title: "It's been so long - desert of doubt",
+        source: "Greg Johnson",
+        source_sub: "It's been so long",
+        lang: "en",
+        text: "Don’t Be Unsure\\Just Take A Step\\Don’t Let Yourself Get Caught Up In This Desert Of Doubt"
+    },
+    {
         title: "Don't stop playing",
         source: "Smith the Grocer",
         source_sub: "Writing on the wall",
