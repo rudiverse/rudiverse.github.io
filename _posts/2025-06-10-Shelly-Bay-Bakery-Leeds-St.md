@@ -1,5 +1,5 @@
 ---
-title: "Shelly Bay Bakery, Leeds St"
+title: "Parallel Universe at Shelly Bay Bakery"
 date: 2025-06-10
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
 en: minor
