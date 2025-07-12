@@ -15,7 +15,7 @@ Ich bin zwar kein Hellseher, aber sie schienen mir hier irgendwie falsch zu lieg
 
 Sie nahmen mein Angebot an, sie ein Stück mitzunehmen  
 Wir fuhren mal Richtung Ebersberg  
-In Kirchseeon trafen wir Hanse und Günter
+In Kirchseeon trafen wir Hanse und Günther
 
 Die erzählten uns von Fröschen  
 Von einer Sommernacht mit Gewitter  
