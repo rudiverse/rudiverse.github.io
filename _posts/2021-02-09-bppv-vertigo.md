@@ -14,7 +14,7 @@ I started on top of Montgomery Ave, Karori, Wellington, and turned right, intend
 
 At home, I sat down and had a glass of water. After going to the toilet, I thought it may be a bit risky to have a shower straight away, in case the fainting feeling comes back. I felt a bit funny, so I decided to go to bed for a rest.
 
-I may have been sleeping for an hour or so. When I awoke, the ceiling and the room was spinning around me. I moved my head, and I felt like vomiting. Calling my wife, she and our son assisted me to "walk" to the toilet. My sense of balance was gone completely. After that, I vomited several times. Lying down in bed, with my eyes closed, helped a bit. I slept again. Waking up next time, the same symptoms were still there, just as heavy as before. What could have happened to me? Was some form of cancer or brain tumour suddenly looking for attention? I had stomach bugs before, which that kind of vomiting reminded me of. Or was it food poisoning? Was this the kind of feeling Alexei Navalny got when he was poisoned? Or did a stress-related event trigger a nervous breakdown? I asked my wife to call Healthline, just in case.
+I may have been sleeping for an hour or so. When I awoke, the ceiling and the room were spinning around me. I moved my head, and I felt like vomiting. Calling my wife, she and our son assisted me to "walk" to the toilet. My sense of balance was gone completely. After that, I vomited several times. Lying down in bed, with my eyes closed, helped a bit. I slept again. Waking up next time, the same symptoms were still there, just as heavy as before. What could have happened to me? Was some form of cancer or brain tumour suddenly looking for attention? I had stomach bugs before, which that kind of vomiting reminded me of. Or was it food poisoning? Was this the kind of feeling Alexei Navalny got when he was poisoned? Or did a stress-related event trigger a nervous breakdown? I asked my wife to call Healthline, just in case.
 
 There is always a first assessment by the Healthline operator, followed by a phone call from a nurse. Their priority seemed to be making sure I wasn't suffering a heart attack or a stroke. The nurse then decided I should see a doctor within 6 hours. Not being able to sit upright, I couldn't go in a car, so she arranged an ambulance. A non-urgent one though, no siren or blue light. And that took time, probably a couple of hours. We got called half-hourly though, checking in my condition hadn't changed. After the paramedics arrived, they did some exams, determining the urgency, and also making sure we weren't dealing with heart attack or stroke. Heart function and blood pressure looked fine. The paramedics were two really warm-hearted females.
 
@@ -42,7 +42,7 @@ Or, hmm, could it have been that big black monster I ran past on the trail yeste
 
 ---
 
-I am feeling very lucky to have the support from my wife and my son. Thank you so much! 
+I am feeling very lucky to have the support of my wife and my son. Thank you so much! 
 And of course also a big thanks to all the medical staff helping me yesterday, our most essential workers at all times.
 
 ---
