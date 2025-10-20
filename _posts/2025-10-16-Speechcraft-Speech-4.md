@@ -47,8 +47,9 @@ Quoting *Paul Simon and Joan Baez*:
 *After changes upon changes*  
 *We are more or less the same*
 
-*Susan* says it's okay to **Feel the Fear**  
--> As long as you **Do It Anyway**
+*Susan* says:
+> It's okay to **Feel the Fear**  
+As long as you **Do It Anyway**
 
 *Nordic Jo* asks:
 > **Who Am I**  
@@ -78,4 +79,4 @@ And **Nothing Else Matters**
 *Don't do as I do*
 
 Sure, I could have talked more  
-But I don't know **How to Make Gravy**
+If only I knew **How to Make Gravy**
