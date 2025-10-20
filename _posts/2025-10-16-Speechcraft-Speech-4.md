@@ -13,9 +13,9 @@ Even someone from a pack of cards ...
 
 ---
 
-Thinking about **Yesterday**  
+Let's start with **Yesterday**  
 **When I was young**  
-In **My Hometown**  
+Roaming in **My Hometown**  
 
 Thinking about my **Brothers in Arms**  
 **All Along the Watchtower**  
