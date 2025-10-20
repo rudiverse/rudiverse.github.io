@@ -6,63 +6,67 @@ en: required
 de: none
 bar: none
 ---
-This is a story about brothers, a boxer, the boss ... and some more
 
----
-
-Being in **My Hometown**  
 Thinking about **Yesterday**  
-**When I was young**
+**When I was young**  
+In **My Hometown**  
 
-*I was so much older then*  
-*When I was young*
+Thinking about my **Brothers in Arms**  
+**All Along the Watchtower**  
+I cherish the **Sound of Silence**  
 
-What's life **Like a Rolling Stone**  
-*If you got nothing*  
-*You got nothing to lose*
-
-I cherish the **Sounds of Silence**  
-Be it in **My Hometown**  
-Or when *I am 1, I am 2, I am 3, I am 4, I am* **500 miles** *away from home*
-
-When driving down memory lane  
+Looking back ...  
 **Objects in the rear view mirror**  
 -> *May appear closer than they are*
 
-Thinking about my **Brothers in Arms**  
-Moving **All Along the Watchtower**  
-**Don't think twice, it's alright**
+How is it, living **Like a Rolling Stone**  
+*If you got nothing*  
+*You got nothing to lose*
 
-Do I want to go on a **Yellow Submarine**  
-Maybe in a **November Rain**  
-I certainly **Don't** want to **Pay the Ferryman**
+I **Don't** want to **Pay the Ferryman**  
+Even when *I'm one, I'm two, I'm three, I'm four*  
+*I'm* **500 Miles** *away from home*
 
-I don'know **How to Make Gravy**  
-I don't see a **Stairway to Heaven**  
-I just don't want to **Get Stuck Inside of Mobile**  
+Neither in summer, nor in a **November Rain**  
+Do I want to **Get Stuck Inside of Mobile**  
 -> **With that Memphis Blues Again**
+
+
+*Paul and Joan* say:
+
+> *I am older than I once was*  
+*And younger than I'll be*  
+*But that's not unusual*
+
+> *Nor is it strange*  
+*After changes upon changes*  
+*We are more or less the same*
 
 *Susan* says it's okay to **Feel the Fear**  
 -> As long as you **Do It Anyway**
 
-*Nordic Jo* asks  
-**Who Am I**  
--> **Where Do I Come From**
+*Nordic Jo* asks:
+> **Who Am I**  
+**Where Do I Come From**
 
-*Paul and Joan* say  
-
-*"I am older than I once was*  
-*And younger than I'll be*  
-*But that's not unusual*
-
-*"Nor is it strange*  
-*After changes upon changes*  
-*We are more or less the same"*
+> *A* **Joker** *is a little fool who is different from everyone else.*  
+*He's not a club, diamond, heart, or spade.*  
+*He's not an eight or a nine. He is an outsider.*  
+*He is placed in the same pack as the other cards, but he doesn't belong there.*
 
 ---
 
-When **Nothing Else Matters**  
-**Let It Be**
+**Let It Be**  
+**Come As You Are**  
+And **Nothing Else Matters**  
 
 **This is the end**  
 -> *My only friend, the end ...*
+
+---
+
+**I'm only human**, *after all*  
+*Don't put the blame on me*
+
+*Just do as I say*  
+*Don't do as I do*
