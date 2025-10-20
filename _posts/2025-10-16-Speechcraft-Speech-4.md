@@ -7,6 +7,12 @@ de: none
 bar: none
 ---
 
+This is a little story about some of those I met along the way.  
+Brothers, a boxer, the boss.  
+Even someone from a pack of cards ...
+
+---
+
 Thinking about **Yesterday**  
 **When I was young**  
 In **My Hometown**  
@@ -27,12 +33,11 @@ I **Don't** want to **Pay the Ferryman**
 Even when *I'm one, I'm two, I'm three, I'm four*  
 *I'm* **500 Miles** *away from home*
 
-Neither in summer, nor in a **November Rain**  
+Neither in summer, nor in a cold **November Rain**  
 Do I want to **Get Stuck Inside of Mobile**  
 -> **With that Memphis Blues Again**
 
-
-*Paul and Joan* say:
+Quoting *Paul Simon and Joan Baez*:
 
 > *I am older than I once was*  
 *And younger than I'll be*  
@@ -51,7 +56,8 @@ Do I want to **Get Stuck Inside of Mobile**
 
 > *A* **Joker** *is a little fool who is different from everyone else.*  
 *He's not a club, diamond, heart, or spade.*  
-*He's not an eight or a nine. He is an outsider.*  
+*He's not an eight or a nine, a king or a jack.*  
+*He is an outsider.*  
 *He is placed in the same pack as the other cards, but he doesn't belong there.*
 
 ---
@@ -70,3 +76,6 @@ And **Nothing Else Matters**
 
 *Just do as I say*  
 *Don't do as I do*
+
+Sure, I could have talked more  
+But I don't know **How to Make Gravy**
