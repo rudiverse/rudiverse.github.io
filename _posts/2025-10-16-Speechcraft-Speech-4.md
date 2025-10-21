@@ -17,13 +17,13 @@ But don't quote me on this.
 
 Let's start with **Yesterday**  
 **When I was young**  
-Roaming in **My Hometown**  
+Roaming in and out of **My Hometown**  
 
 Thinking about my **Brothers in Arms**  
 **All Along the Watchtower**  
 I cherish the **Sound of Silence**  
 
-Looking back ...  
+When I look back, it feels like ...  
 **Objects in the rear view mirror**  
 -> *May appear closer than they are*
 
@@ -54,8 +54,8 @@ Quoting *Paul Simon and Joan Baez*:
 As long as you **Do It Anyway**
 
 *Nordic Jo* asks:
-> **Who Am I**  
-**Where Do I Come From**
+> **Who Are You**  
+**Where Do We Come From**
 
 > *A* **Joker** *is a little fool who is different from everyone else.*  
 *He's not a club, diamond, heart, or spade.*  
