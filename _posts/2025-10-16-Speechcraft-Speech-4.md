@@ -1,5 +1,5 @@
 ---
-title: "About Brothers, A Boxer, The Boss, ..."
+title: "Don't quote me on this"
 date: 2025-10-16
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
 en: required
@@ -9,7 +9,9 @@ bar: none
 
 This is a little story about some of those I met along the way.  
 Brothers, a boxer, the boss.  
-Even someone from a pack of cards ...
+Maybe even someone from a pack of cards.
+
+But don't quote me on this.
 
 ---
 
