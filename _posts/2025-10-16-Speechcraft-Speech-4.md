@@ -63,6 +63,11 @@ As long as you **Do It Anyway**
 *He is an outsider.*  
 *He is placed in the same pack as the other cards, but he doesn't belong there.*
 
+> There are thousands of people around us here  
+If just one of them experiences life as a crazy adventure  
+If they experience this every single day  
+Then they are a joker in a pack of cards
+
 ---
 
 **Let It Be**  
