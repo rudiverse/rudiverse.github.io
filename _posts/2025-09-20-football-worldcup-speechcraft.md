@@ -74,7 +74,7 @@ Brazil faced their second worst disaster, a 7-1 defeat at home by Germany
 Germany then prevented their worst disaster happening  
 Which would have been Argentina winning the world cup on Brazilian soil
 
-![Cow](/assets/images/Copacabana de 1 arg 0.png)
+![Copacabana world cup final mural](/assets/images/Copacabana de 1 arg 0.jpg)
 
 That was the last time it happened ... so far
 
