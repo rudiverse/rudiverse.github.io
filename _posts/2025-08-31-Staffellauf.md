@@ -1,6 +1,6 @@
 ---
 title: "Staffellauf"
-date: 2025-07-12
+date: 2025-08-31
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
 en: minor
 de: minor
