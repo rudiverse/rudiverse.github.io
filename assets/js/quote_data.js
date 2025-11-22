@@ -105,4 +105,11 @@ let quoteData = [
         lang: "en",
         text: "I am older than I once was\\And younger than I'll be\\But that's not unusual\\Nor is it strange\\After changes upon changes\\We are more or less the same"
     },
+    {
+        title: "Light at the end of the tunnel",
+        source: "Sara Henderson",
+        source_sub: "Australian outback station manager and writer",
+        lang: "en",
+        text: "Don't wait for a light to appear at the end of the tunnel\\Stride down there ...\\And light the bloody thing yourself"
+    },
 ]
