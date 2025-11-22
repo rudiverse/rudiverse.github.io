@@ -1,6 +1,6 @@
 ---
 title: "Wenn Er Pfeift"
-date: 1999-09-15
+date: 1999-02-27
 location: Dunedin
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
 en: none
