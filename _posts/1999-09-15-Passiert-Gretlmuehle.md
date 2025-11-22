@@ -2,8 +2,8 @@
 title: "Passiert - damals in der Gretlmühle"
 date: 1999-09-15
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
-en: minor
-de: minor
+en: none
+de: none
 bar: required
 ---
 Wenn i ned woaß, ob's richtig is  
