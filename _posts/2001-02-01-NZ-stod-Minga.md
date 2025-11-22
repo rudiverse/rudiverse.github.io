@@ -1,5 +1,5 @@
 ---
-title: "Father and Son"
+title: "NZ stod Minga"
 date: 2001-02-01
 location: NZ, probably during my 3rd trip
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
