@@ -32,5 +32,5 @@ Vor der du ned wegrennst
 Dann greif zua, mei Freind
 
 Wenn dei Herz da wärmste Bloz is auf da Wejt  
-Du wieda woaß, wos wirklich zejt  
+Du wieda woaßt, wos wirklich zejt  
 Dann bist dahoam
