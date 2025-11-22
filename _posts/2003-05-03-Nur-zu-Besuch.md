@@ -1,5 +1,5 @@
 ---
-title: "Nur zu Besuch, Le Bons Bay Backpackers"
+title: "Nur zu Besuch"
 date: 2003-05-03
 # for each of the languages (en|de|bar), indicate level (required|enhancing|minor|none)
 en: required
