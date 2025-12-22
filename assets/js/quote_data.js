@@ -112,4 +112,11 @@ let quoteData = [
         lang: "en",
         text: "Don't wait for a light to appear at the end of the tunnel\\Stride down there ...\\And light the bloody thing yourself"
     },
+    {
+        title: "Listen with the intent to understand",
+        source: "Stephen Covey",
+        source_sub: "The 7 Habits of Highly Effective People",
+        lang: "en",
+        text: "Most people do not listen with the intent to understand; they listen with the intent to reply"
+    },
 ]
